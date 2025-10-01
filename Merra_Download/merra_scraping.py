@@ -13,7 +13,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 ####### INPUTS - CHANGE THESE #########
 username = 'abser'
 password = 'Absermansoor2@'
-years = [2021, 2022, 2023, 2024, 2025]
+years = [2020, 2021, 2022, 2023, 2024]
 
 # Define all variables needed for ML model
 variables = [
