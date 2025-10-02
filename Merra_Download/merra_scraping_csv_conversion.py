@@ -226,7 +226,7 @@ lat_coords = np.arange(0, 361, dtype=int)
 lon_coords = np.arange(0, 576, dtype=int)
 username = 'abser'
 password = 'Absermansoor2@'
-years = [2020, 2021]
+years = [2020, 2021, 2022, 2023, 2024]
 
 ######### PROCESS AND MERGE DATA ##########
 print('PROCESSING AND MERGING REGIONAL DATA')
