@@ -1,0 +1,5 @@
+# Ignore everything in precipitation/
+precipitation/*
+
+# But don't ignore CSV files
+!precipitation/*.csv
