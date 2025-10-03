@@ -18,43 +18,43 @@ years = [2020, 2021, 2022, 2023, 2024]
 # Define all variables needed for ML model
 variables = [
     {
-        'field_id': 'T2M',
-        'field_name': 'temperature',
-        'database_name': 'M2T1NXSLV',
+        'field_id': 'V10M',
+        'field_name': 'V10M',
         'database_id': 'tavg1_2d_slv_Nx',
-        'conversion_function': lambda x: x - 273.15,  # Convert Kelvin to Celsius
+        'database_name': 'M2T1NXSLV',
+        'conversion_function': lambda x: x,  # No conversion needed
         'aggregator': 'mean'
-    },
+    }
     # Add other variables as needed...
 ]
 
 # Define cities with point coordinates (name, country, latitude, longitude)
 regions = [
-    ("karachi", "pakistan", 24.8607, 67.0011),
-    ("lahore", "pakistan", 31.5204, 74.3587),
-    ("islamabad", "pakistan", 33.6844, 73.0479),
-    ("rawalpindi", "pakistan", 33.5651, 73.0169),
+    # ("karachi", "pakistan", 24.8607, 67.0011),
+    # ("lahore", "pakistan", 31.5204, 74.3587),
+    # ("islamabad", "pakistan", 33.6844, 73.0479),
+    # ("rawalpindi", "pakistan", 33.5651, 73.0169),
     ("peshawar", "pakistan", 34.0151, 71.5249),
-    ("quetta", "pakistan", 30.1798, 66.9750),
-    ("multan", "pakistan", 30.1575, 71.5249),
-    ("hyderabad", "pakistan", 25.3960, 68.3578),
-    ("mumbai", "india", 19.0760, 72.8777),
-    ("delhi", "india", 28.7041, 77.1025),
-    ("kolkata", "india", 22.5726, 88.3639),
-    ("chennai", "india", 13.0827, 80.2707),
-    ("bengaluru", "india", 12.9716, 77.5946),
-    ("hyderabad", "india", 17.3850, 78.4867),
-    ("ahmedabad", "india", 23.0225, 72.5714),
-    ("pune", "india", 18.5204, 73.8567),
-    ("surat", "india", 21.1702, 72.8311),
-    ("jaipur", "india", 26.9124, 75.7873),
-    ("lucknow", "india", 26.8467, 80.9462),
-    ("patna", "india", 25.5941, 85.1376),
-    ("dhaka", "bangladesh", 23.8103, 90.4125),
-    ("chittagong", "bangladesh", 22.3569, 91.7832),
-    ("colombo", "sri lanka", 6.9271, 79.8612),
-    ("kandy", "sri lanka", 7.2906, 80.6337),
-    ("kathmandu", "nepal", 27.7172, 85.3240),
+    # ("quetta", "pakistan", 30.1798, 66.9750),
+    # ("multan", "pakistan", 30.1575, 71.5249),
+    # ("hyderabad", "pakistan", 25.3960, 68.3578),
+    # ("mumbai", "india", 19.0760, 72.8777),
+    # ("delhi", "india", 28.7041, 77.1025),
+    # ("kolkata", "india", 22.5726, 88.3639),
+    # ("chennai", "india", 13.0827, 80.2707),
+    # ("bengaluru", "india", 12.9716, 77.5946),
+    # ("hyderabad", "india", 17.3850, 78.4867),
+    # ("ahmedabad", "india", 23.0225, 72.5714),
+    # ("pune", "india", 18.5204, 73.8567),
+    # ("surat", "india", 21.1702, 72.8311),
+    # ("jaipur", "india", 26.9124, 75.7873),
+    # ("lucknow", "india", 26.8467, 80.9462),
+    # ("patna", "india", 25.5941, 85.1376),
+    # ("dhaka", "bangladesh", 23.8103, 90.4125),
+    # ("chittagong", "bangladesh", 22.3569, 91.7832),
+    # ("colombo", "sri lanka", 6.9271, 79.8612),
+    # ("kandy", "sri lanka", 7.2906, 80.6337),
+    # ("kathmandu", "nepal", 27.7172, 85.3240),
 ]
 
 ####### CONSTANTS - DO NOT CHANGE BELOW THIS LINE #######
