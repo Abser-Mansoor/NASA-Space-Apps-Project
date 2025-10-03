@@ -11,12 +11,20 @@ def count_by_region():
     """
     Count records grouped by region
     """
-    fields = ['QV2M']
+    fields = ['climate_indices_daily_2020_2024',
+              'QV2M',
+              'PRECTOTCORR',
+              'PS',
+              'QV2M',
+              'T2M',
+              'U10M',
+              'V10M'
+            ]
     
     region_counts = {}
     
     for field in fields:
-        csv_files = glob.glob(f"{field}/*daily.csv")
+        csv_files = glob.glob(f"Fields_Combined_Datasets/{field}.csv")
         
         for file_path in csv_files:
             try:
