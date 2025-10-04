@@ -4,7499 +4,1349 @@
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.007366389911378761,
-    "intercept": 1.2988335266905848
+    "slope": -0.0007173877601393103,
+    "intercept": 1.986983474676665
   },
   {
     "city": "karachi",
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.013246480875073819,
-    "intercept": 1005.2023909513833
+    "slope": -0.0008517558320052113,
+    "intercept": 1003.806278244291
   },
   {
     "city": "karachi",
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.01028011483690076,
-    "intercept": 12.434666620274593
+    "slope": 0.0015545410560679805,
+    "intercept": 13.072933337952577
   },
   {
     "city": "karachi",
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.00975513347610536,
-    "intercept": 24.024254969832757
+    "slope": 0.0013191108467519228,
+    "intercept": 24.877097155350842
   },
   {
     "city": "karachi",
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0028889527178177924,
-    "intercept": 2.6653258789134067
+    "slope": 0.00042056120663229717,
+    "intercept": 2.224792634780623
   },
   {
     "city": "karachi",
     "country": "pakistan",
     "latitude": 24.8607,
     "longitude": 67.0011,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.0001884692637152753,
-    "intercept": 0.3087758373326529
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.00220157225331024,
-    "intercept": 0.06129055912794834
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0019888235162955786,
-    "intercept": 1005.6689917759157
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.0069065500713633475,
-    "intercept": 10.86491418887276
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.012389319414879219,
-    "intercept": 23.382084607062566
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.00964240633948131,
-    "intercept": 2.8783337538679454
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.001017394731909223,
-    "intercept": 0.1396812265423444
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.003504641657871681,
-    "intercept": 1.5075377525984317
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.00024963332625393904,
-    "intercept": 1001.7964793077525
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.006792132410063446,
-    "intercept": 14.16519900323568
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.006447970482965175,
-    "intercept": 24.806776946786215
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.004771280350728841,
-    "intercept": 3.9946428579066495
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.0019221590242437451,
-    "intercept": 1.0590771784473025
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0003409688460701883,
-    "intercept": 0.3798082315807298
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.004391807997338737,
-    "intercept": 1004.1101170380928
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.006304839712761175,
-    "intercept": 13.348172443709315
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.010422823323986972,
-    "intercept": 24.49644544604218
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0015495139345624309,
-    "intercept": 3.080636469249959
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 3.683162177689806e-05,
-    "intercept": 0.7835083255860121
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": -0.0005405947069963348,
-    "intercept": 1.3205037405147901
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.009535500336813258,
-    "intercept": 1004.4155968278903
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.008834250434279227,
-    "intercept": 13.59071709315727
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.008991938689265616,
-    "intercept": 24.960069339104507
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0015430430833129705,
-    "intercept": 3.0255029234743427
-  },
-  {
-    "city": "karachi",
-    "country": "pakistan",
-    "latitude": 24.8607,
-    "longitude": 67.0011,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.000317351473251181,
-    "intercept": 0.6124550540019804
+    "slope": 0.0003113866023787759,
+    "intercept": 0.2452809402216385
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.0032683470514504845,
-    "intercept": 2.2194445677964385
+    "slope": 0.0004593525178408177,
+    "intercept": 2.044127411562999
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.013361461820284222,
-    "intercept": 987.0750927200233
+    "slope": -0.001209574992137125,
+    "intercept": 985.6799442873836
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.00722395926350952,
-    "intercept": 9.08491168109617
+    "slope": 0.0017472789807931022,
+    "intercept": 8.745279905180395
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.0150289618788123,
-    "intercept": 20.91730440103029
+    "slope": 0.0021116640860268814,
+    "intercept": 22.248882278777714
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0025698657310245033,
-    "intercept": -0.3986801723855819
+    "slope": 0.00012760235347427339,
+    "intercept": 0.20757681949673917
   },
   {
     "city": "lahore",
     "country": "pakistan",
     "latitude": 31.5204,
     "longitude": 74.3587,
-    "year": 2020,
     "target": "V10M",
-    "slope": -5.90246260826831e-05,
-    "intercept": -0.2526049063452841
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.001680782709863171,
-    "intercept": 1.1478994897762167
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.001268115248177532,
-    "intercept": 987.2898267395984
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.005373949987664589,
-    "intercept": 6.5865017112835424
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.009331138625800157,
-    "intercept": 19.82493934022289
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -4.700571496460352e-05,
-    "intercept": 0.6071532299825162
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0013000437282492412,
-    "intercept": -0.5402527470836178
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": -0.0007854743911256229,
-    "intercept": 2.4195465361381157
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0032930760725935855,
-    "intercept": 982.5517508101104
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.013683513489084713,
-    "intercept": 8.043974485259291
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.004023602819332012,
-    "intercept": 24.560806391033772
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.00022367353355302075,
-    "intercept": 0.28688520240559856
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0009419867384507801,
-    "intercept": -0.4897806168162978
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0037532516074626258,
-    "intercept": 2.6230053983710673
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0022336181093805638,
-    "intercept": 985.2999598638643
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01766906679057379,
-    "intercept": 8.261201471882124
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.005632571640635181,
-    "intercept": 23.05862373521646
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0026185989702589103,
-    "intercept": 0.739309030581345
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0033092318402409425,
-    "intercept": -0.6114727624336384
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.003211270400923376,
-    "intercept": 1.7970412409437606
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.009377507878290491,
-    "intercept": 985.6696684865415
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.018433135018842552,
-    "intercept": 7.1530068352279965
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.012218729494509376,
-    "intercept": 23.011293611466733
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0012719019455536052,
-    "intercept": 0.6519412538785986
-  },
-  {
-    "city": "lahore",
-    "country": "pakistan",
-    "latitude": 31.5204,
-    "longitude": 74.3587,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0004276951876358009,
-    "intercept": -0.4745470002497235
+    "slope": 0.0001360401830851846,
+    "intercept": -0.4262003495159872
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": -0.027346654150993185,
-    "intercept": 15.697690185317615
+    "slope": -0.003929981393970073,
+    "intercept": 9.076300071998293
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.01148978454536169,
-    "intercept": 949.479399276474
+    "slope": -0.0010205652312188296,
+    "intercept": 948.2703522420334
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.008310276339400869,
-    "intercept": 9.71088690491826
+    "slope": 0.0011570882552967008,
+    "intercept": 9.594114422705232
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.01623208763322547,
-    "intercept": 17.112334739565057
+    "slope": 0.0027838910092706035,
+    "intercept": 18.580199691154924
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0013201445834794148,
-    "intercept": -0.7214389758162598
+    "slope": 0.00028121952152509365,
+    "intercept": -0.4238265485656255
   },
   {
     "city": "islamabad",
     "country": "pakistan",
     "latitude": 33.6844,
     "longitude": 73.0479,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.0011630101851216052,
-    "intercept": -0.3647385444950695
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.020636841525215038,
-    "intercept": 6.88811898049622
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.00251701061571837,
-    "intercept": 949.489807793816
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.0013618837630706346,
-    "intercept": 7.544322075569551
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.009793735047669136,
-    "intercept": 16.554588438405222
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.001317562554436674,
-    "intercept": -0.3095819383019593
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0016158492723600934,
-    "intercept": -1.1855382975757445
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": -0.0001091408503283529,
-    "intercept": 4.629816630327805
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0032842068427532106,
-    "intercept": 945.5430338583808
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.013390359785512044,
-    "intercept": 8.465516512940166
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.006469510012243106,
-    "intercept": 20.891602488141704
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.0007503815909883918,
-    "intercept": -0.21055797088247458
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0015369493598825228,
-    "intercept": -1.2177279068244484
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0008703288050242772,
-    "intercept": 3.642947495701392
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0025194434149723175,
-    "intercept": 948.0250327797214
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01147321811163753,
-    "intercept": 9.403278739881074
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.014683141674711773,
-    "intercept": 18.859751947772622
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0002858627736316947,
-    "intercept": -0.14146741897182813
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0019298522537751716,
-    "intercept": -1.0006714002288994
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.002655208618889342,
-    "intercept": 4.495350231844088
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.007228303543501481,
-    "intercept": 948.1514004440763
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.014870292399154238,
-    "intercept": 7.986956227299888
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.01353059224551599,
-    "intercept": 19.761143920642937
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.0007595937434154853,
-    "intercept": -0.17525406572627172
-  },
-  {
-    "city": "islamabad",
-    "country": "pakistan",
-    "latitude": 33.6844,
-    "longitude": 73.0479,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.0008189993863258041,
-    "intercept": -0.7122098191158922
+    "slope": 2.4317222837936066e-05,
+    "intercept": -0.8672557427943217
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": -0.027346654150993185,
-    "intercept": 15.697690185317615
+    "slope": -0.004024569763214703,
+    "intercept": 9.111693877631959
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.01148978454536169,
-    "intercept": 949.479399276474
+    "slope": -0.001021783872599959,
+    "intercept": 948.2686194424639
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.008310276339400869,
-    "intercept": 9.71088690491826
+    "slope": 0.00116155654930403,
+    "intercept": 9.589832181444855
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.01623208763322547,
-    "intercept": 17.112334739565057
+    "slope": 0.002793657084012122,
+    "intercept": 18.56787226150083
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0013201445834794148,
-    "intercept": -0.7214389758162598
+    "slope": 0.00028142627881917075,
+    "intercept": -0.42506568799554456
   },
   {
     "city": "rawalpindi",
     "country": "pakistan",
     "latitude": 33.5651,
     "longitude": 73.0169,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.0011630101851216052,
-    "intercept": -0.3647385444950695
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.020636841525215038,
-    "intercept": 6.88811898049622
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.00251701061571837,
-    "intercept": 949.489807793816
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.0013618837630706346,
-    "intercept": 7.544322075569551
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.009793735047669136,
-    "intercept": 16.554588438405222
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.001317562554436674,
-    "intercept": -0.3095819383019593
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0016158492723600934,
-    "intercept": -1.1855382975757445
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 5.190966742293488e-05,
-    "intercept": 4.588111162764241
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0032170652505688667,
-    "intercept": 945.5530550993537
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.013516803932027774,
-    "intercept": 8.421515782317314
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.007005182520444648,
-    "intercept": 20.75445657646295
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.0007819594756558767,
-    "intercept": -0.21924990489426038
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0014974212274077245,
-    "intercept": -1.2091982408671087
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0007277605960196822,
-    "intercept": 3.6797017854331497
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0023701867259096924,
-    "intercept": 947.988505223671
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.011329869234676613,
-    "intercept": 9.448497081321017
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.014480025725343282,
-    "intercept": 18.919888842619716
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0002574649672679988,
-    "intercept": -0.14941849533508417
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.001894520186471806,
-    "intercept": -0.9896822657756585
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.004947849534276378,
-    "intercept": 3.8767546309315204
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.007228303543501481,
-    "intercept": 948.1514004440763
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.014870292399154238,
-    "intercept": 7.986956227299888
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.01353059224551599,
-    "intercept": 19.761143920642937
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.0007595937434154853,
-    "intercept": -0.17525406572627172
-  },
-  {
-    "city": "rawalpindi",
-    "country": "pakistan",
-    "latitude": 33.5651,
-    "longitude": 73.0169,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.0008189993863258041,
-    "intercept": -0.7122098191158922
+    "slope": 2.4255536752512534e-05,
+    "intercept": -0.8661329370931414
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": -0.011611920108080253,
-    "intercept": 6.268411590896548
+    "slope": -0.001468181022099263,
+    "intercept": 3.9949388671290293
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.008607634254003713,
-    "intercept": 902.7828692614017
+    "slope": -0.0007253180395580434,
+    "intercept": 901.9879611462494
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.004650852441236342,
-    "intercept": 8.2832084011153
+    "slope": 0.00074031774515148,
+    "intercept": 7.860743863364863
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.021500744466185943,
-    "intercept": 13.892527145787158
+    "slope": 0.0031676341714073643,
+    "intercept": 16.01091368801822
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0004994178641113977,
-    "intercept": 0.3514829811782106
+    "slope": -9.56695863534453e-05,
+    "intercept": 0.5840271022457303
   },
   {
     "city": "peshawar",
     "country": "pakistan",
     "latitude": 34.0151,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0016290462618792651,
-    "intercept": -0.3910301030002835
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.004493234098804718,
-    "intercept": 2.9806576617522524
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.003540548416868181,
-    "intercept": 903.0812615031414
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.003158740363292926,
-    "intercept": 5.78254101169553
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.00975196710265458,
-    "intercept": 14.038874833871064
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.0009134336309900857,
-    "intercept": 0.8485825188061767
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.001015407302130825,
-    "intercept": -0.9049238095134847
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": -0.002371008034364134,
-    "intercept": 3.046380955993968
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.003020474319978338,
-    "intercept": 899.7807067948397
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.00893080476040458,
-    "intercept": 7.240691704935496
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.011028395413613624,
-    "intercept": 17.757262055546757
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0011805390306617448,
-    "intercept": 0.8450016233048634
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.002136311230576617,
-    "intercept": -0.6191580632071151
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": -0.005434444439860049,
-    "intercept": 3.0123461906063103
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0011933838543517646,
-    "intercept": 901.6920232730218
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.006227138690615214,
-    "intercept": 7.6984714114526
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.02191054470100454,
-    "intercept": 15.75882285005526
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.002907330522939534,
-    "intercept": 0.8417862907279867
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.003223601451876539,
-    "intercept": -0.6489155090196372
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": -0.007488268559068768,
-    "intercept": 3.813050631920749
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.004546091733116537,
-    "intercept": 901.7875343114497
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.008926060869307417,
-    "intercept": 7.119557590943074
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.019726158368367323,
-    "intercept": 16.240371916458994
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0007126095514137141,
-    "intercept": 0.6135056921818488
-  },
-  {
-    "city": "peshawar",
-    "country": "pakistan",
-    "latitude": 34.0151,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0016648122137443281,
-    "intercept": -0.4890146295250959
+    "slope": 0.00022763902926083236,
+    "intercept": -0.4319129318216382
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": -0.00874881994818047,
-    "intercept": 3.057028720010919
+    "slope": -0.00031004485200223795,
+    "intercept": 1.5252832852582234
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.0004409157850934783,
-    "intercept": 819.2622231837322
+    "slope": 7.082802194759967e-05,
+    "intercept": 819.5200702159298
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "QV2M",
-    "slope": -0.0015773489526812318,
-    "intercept": 5.928979505472762
+    "slope": 0.0007388437234217788,
+    "intercept": 4.873207505912056
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.019216288238947152,
-    "intercept": 11.090817355018112
+    "slope": 0.0027588840095297655,
+    "intercept": 12.883800372001126
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.00117359440569598,
-    "intercept": 1.9448152799837786
+    "slope": -0.00047783500353827435,
+    "intercept": 1.913000649740497
   },
   {
     "city": "quetta",
     "country": "pakistan",
     "latitude": 30.1798,
     "longitude": 66.975,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.002320952321506501,
-    "intercept": -0.12643551074496623
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.0013258184428854747,
-    "intercept": 0.43975762622173475
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.005672284862853727,
-    "intercept": 820.3012106250018
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.0026669908800651754,
-    "intercept": 2.9975432986855814
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.006973136838734562,
-    "intercept": 11.353659061623292
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.003312110111770004,
-    "intercept": 2.4664833514277675
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0008767397668681415,
-    "intercept": -0.8881720293602755
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": -0.0065315996231264896,
-    "intercept": 3.1125564223053535
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.005906252781779408,
-    "intercept": 817.7774457716495
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.004995951847315324,
-    "intercept": 5.3677649291956255
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.008437991662937875,
-    "intercept": 14.240818203362346
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0033265059701673774,
-    "intercept": 1.8063442022530194
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.0006823599146719123,
-    "intercept": -0.6212504658528446
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": -0.005944535660379204,
-    "intercept": 1.9733105704768632
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "PS",
-    "slope": 0.004033411946972494,
-    "intercept": 819.1302475787331
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": -0.002160033296625551,
-    "intercept": 5.771181581783188
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.021034604184054766,
-    "intercept": 12.619455592894134
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.002436375965737121,
-    "intercept": 1.8263828215045887
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.0015436182818348583,
-    "intercept": -0.24890579648489974
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": -0.00469927010872108,
-    "intercept": 2.191269212769475
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "PS",
-    "slope": 0.0015220238120064646,
-    "intercept": 819.1678230711246
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.0010635123773857075,
-    "intercept": 5.914731762107875
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.0168966011703567,
-    "intercept": 13.089731823019862
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0031391897329217386,
-    "intercept": 1.9401187699278055
-  },
-  {
-    "city": "quetta",
-    "country": "pakistan",
-    "latitude": 30.1798,
-    "longitude": 66.975,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.002022602500845864,
-    "intercept": -0.2240862668631991
+    "slope": 1.3996700169465591e-05,
+    "intercept": -0.6661178943251126
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": -0.01039295394183634,
-    "intercept": 4.075886595206696
+    "slope": -0.0005547219277278254,
+    "intercept": 1.7423205002690643
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.014320045336474293,
-    "intercept": 997.0306034227925
+    "slope": -0.0013096992512449182,
+    "intercept": 995.5715702899213
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.0014445153991867303,
-    "intercept": 9.659113823292335
+    "slope": 0.0011038438833059485,
+    "intercept": 8.147077871430934
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.01938575408420446,
-    "intercept": 21.992253700451577
+    "slope": 0.0027906387029138623,
+    "intercept": 23.969679230631204
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0006040795004933435,
-    "intercept": 0.33117448888681766
+    "slope": -2.1603803094838294e-05,
+    "intercept": 0.025661832829294382
   },
   {
     "city": "multan",
     "country": "pakistan",
     "latitude": 30.1575,
     "longitude": 71.5249,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0037923317564409775,
-    "intercept": -0.7862185180005132
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": -0.0003679993288720588,
-    "intercept": 0.27052319840382155
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.000613194344043117,
-    "intercept": 997.3832559824418
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": -0.0009904555683386083,
-    "intercept": 5.73513210132757
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.01780817961655896,
-    "intercept": 21.07565207594728
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.0015929131727957823,
-    "intercept": -0.514080784549494
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.0003051086956429653,
-    "intercept": -0.5122965185516437
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0012091654647765307,
-    "intercept": 1.131421534810713
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.002963534889919656,
-    "intercept": 992.3780378076403
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.014720918852956932,
-    "intercept": 6.944503267518878
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.00501824748939125,
-    "intercept": 26.343464084056738
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.000847369574639176,
-    "intercept": -0.15287656552014578
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.002863737462225475,
-    "intercept": -0.34453694288508974
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": -0.0019704188108768204,
-    "intercept": 1.3581327840353552
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0056267596334495405,
-    "intercept": 995.5832675278313
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.007464331800066956,
-    "intercept": 8.249424654712907
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.015692365529299868,
-    "intercept": 24.356478792515112
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.00017313715856778758,
-    "intercept": -0.05529001855129302
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.004194142983881776,
-    "intercept": -0.1643681054701278
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.0019956131000862993,
-    "intercept": 0.8499265259553193
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.00984231570216378,
-    "intercept": 995.6073602517941
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.014109988345793642,
-    "intercept": 6.9534721812492055
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.012628077612656451,
-    "intercept": 25.17360726245057
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0005882343926696746,
-    "intercept": 0.1667989970426029
-  },
-  {
-    "city": "multan",
-    "country": "pakistan",
-    "latitude": 30.1575,
-    "longitude": 71.5249,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.002732010638984232,
-    "intercept": 0.7462180239844807
+    "slope": 0.0005801227489965344,
+    "intercept": -0.36059156707707807
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.001018465939282854,
-    "intercept": 2.222445050882832
+    "slope": -0.0008722696052887044,
+    "intercept": 2.0518053538072607
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.01228540821801155,
-    "intercept": 1000.0176116781507
+    "slope": -0.0009156845563751529,
+    "intercept": 998.7473005626665
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.011953037134576478,
-    "intercept": 8.851999199281735
+    "slope": 0.0017714696341192561,
+    "intercept": 9.432509818269693
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.005897955518267266,
-    "intercept": 25.162591712061932
+    "slope": 0.0015962977699534961,
+    "intercept": 25.30806983192558
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0011419876206420327,
-    "intercept": 2.3738682102993267
+    "slope": 0.00028953862610473196,
+    "intercept": 2.203070350273878
   },
   {
     "city": "hyderabad",
     "country": "pakistan",
     "latitude": 25.396,
     "longitude": 68.3578,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0007435880043179763,
-    "intercept": -0.09843144789909385
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.0015300493618394567,
-    "intercept": 0.3806180589657276
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.0004917474971450292,
-    "intercept": 1000.3860580468012
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.010503411530885819,
-    "intercept": 6.100011617726594
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.005972161784602621,
-    "intercept": 24.335911932040716
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.004777418164217874,
-    "intercept": 2.140410331384011
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0013671790511315873,
-    "intercept": -0.26625759821319783
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.004217021851885648,
-    "intercept": 1.2187070426076483
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0021223396303547705,
-    "intercept": 996.2726239293559
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.014856730912877026,
-    "intercept": 9.650468198484305
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.002047747878951189,
-    "intercept": 27.009029188369603
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.004697634287968154,
-    "intercept": 3.8897595674510055
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.002117716656300498,
-    "intercept": 1.0919656181107316
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0010095018943740248,
-    "intercept": 0.4750920005928376
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.003926823219836951,
-    "intercept": 998.8282809270376
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.00974661453714027,
-    "intercept": 9.455599384406462
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.008433631755784151,
-    "intercept": 25.664457050605925
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0015969348131806662,
-    "intercept": 2.9503328011804926
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0008323958796111184,
-    "intercept": 0.6079937821488027
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.0018548378252901637,
-    "intercept": 0.5016209092532458
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.00926539509588571,
-    "intercept": 999.2370498740607
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.01259539374809472,
-    "intercept": 9.281265561593855
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.006705411966359306,
-    "intercept": 26.382836103721342
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0012342250774641593,
-    "intercept": 2.6955811976757857
-  },
-  {
-    "city": "hyderabad",
-    "country": "pakistan",
-    "latitude": 25.396,
-    "longitude": 68.3578,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -1.2377496861582055e-05,
-    "intercept": 0.512030679444652
+    "slope": 0.0005422128333138106,
+    "intercept": -0.08017591728759466
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.034168760453791115,
-    "intercept": 2.2282648577004425
+    "slope": 0.0025338004646090133,
+    "intercept": 4.999503213851645
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.01001033029805925,
-    "intercept": 999.3933577585011
+    "slope": -0.00015329741161625098,
+    "intercept": 998.1560243267772
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.02103385963011552,
-    "intercept": 11.56996670741133
+    "slope": 0.0012626345579760262,
+    "intercept": 13.663425681827585
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.003128899498215236,
-    "intercept": 27.319991902146022
+    "slope": 4.489978303915092e-06,
+    "intercept": 26.873687539347422
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.002190860681338973,
-    "intercept": 1.2659379760758687
+    "slope": 0.00023376322884870087,
+    "intercept": 0.6674089978359453
   },
   {
     "city": "mumbai",
     "country": "india",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.00595208399298891,
-    "intercept": -1.0822000818251358
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.013495906437811477,
-    "intercept": 0.6402903135755866
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0010637840840529735,
-    "intercept": 999.0093390965213
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.027534938549942874,
-    "intercept": 9.929310796178758
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.01029409755799193,
-    "intercept": 28.174687895527914
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.0073186990403431495,
-    "intercept": 0.6624748778220022
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.003962176223878724,
-    "intercept": -1.3469996309298624
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.02186459130488781,
-    "intercept": 3.9782919057329593
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.0008023997518289782,
-    "intercept": 997.5008625699728
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.015313964610115765,
-    "intercept": 12.178156980464921
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0064551261093226935,
-    "intercept": 27.648573924128264
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.004864017030986861,
-    "intercept": 2.07210147733151
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0027096809316103786,
-    "intercept": -0.6682937848321601
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.01724577956565627,
-    "intercept": 4.151189753100591
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.002500958942636459,
-    "intercept": 999.1437964596375
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.022074585373187024,
-    "intercept": 10.5532464467753
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.005140686082852946,
-    "intercept": 27.941829982711617
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.001974813214847422,
-    "intercept": 1.3450189300267363
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.003744685089090025,
-    "intercept": -0.9178342181256126
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.024311795529476047,
-    "intercept": 4.156622245080995
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.006555194375130296,
-    "intercept": 998.9465422013309
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.0205071393133621,
-    "intercept": 11.525435275850123
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.010369929496859708,
-    "intercept": 29.078693271788044
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0047172701878912615,
-    "intercept": 1.9633825894490986
-  },
-  {
-    "city": "mumbai",
-    "country": "india",
-    "latitude": 19.076,
-    "longitude": 72.8777,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0035295652652948682,
-    "intercept": -0.8050219478299313
+    "slope": 0.00026864394392462027,
+    "intercept": -0.49350797964205395
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.001508701046090198,
-    "intercept": 1.6910772307392894
+    "slope": 0.0005350794635558992,
+    "intercept": 1.5206537041468842
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.0120722297272521,
-    "intercept": 984.3245630111072
+    "slope": -0.0010114677053951885,
+    "intercept": 983.0585118190452
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.0063289509627999395,
-    "intercept": 8.716821061004223
+    "slope": 0.0021316709481305645,
+    "intercept": 8.239318138845245
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.012938277839402752,
-    "intercept": 22.34166973659871
+    "slope": 0.0015446856028587055,
+    "intercept": 23.34057793025334
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0014862019382289513,
-    "intercept": 0.1796076213944349
+    "slope": 6.860392363831768e-05,
+    "intercept": 0.4112505690433989
   },
   {
     "city": "delhi",
     "country": "india",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.0007087667534717334,
-    "intercept": -0.7416434899431416
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.00045488708693409004,
-    "intercept": 0.9705143147611881
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.0036157741078386234,
-    "intercept": 984.3318351752612
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.017913204072747782,
-    "intercept": 4.85769456529189
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.003146543792300482,
-    "intercept": 22.205028438733557
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.0033832870835350235,
-    "intercept": 0.9306541400139561
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.002444171474183751,
-    "intercept": -1.3629485720044052
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0031413816972363077,
-    "intercept": 1.6113793865276187
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0029704150522006185,
-    "intercept": 980.2327308235843
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.01654825093432475,
-    "intercept": 7.606624804504923
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.001551884584062728,
-    "intercept": 25.185446183554266
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0003158479616243922,
-    "intercept": 0.31393768790825877
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.0009398092428569444,
-    "intercept": -0.4691866497805993
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": -0.00045322015441355925,
-    "intercept": 2.229975825802332
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0021466264722024655,
-    "intercept": 982.8630796395162
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.014166727220196759,
-    "intercept": 8.45346118557194
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.007629809026861332,
-    "intercept": 23.460637517221357
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0036265808300435507,
-    "intercept": 1.1903247307664877
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0008399296013614767,
-    "intercept": -0.9327711420529481
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.006741779939485192,
-    "intercept": 0.9936000846717779
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.00849742042514887,
-    "intercept": 983.163397205448
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.02458595239699433,
-    "intercept": 6.15684233634236
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.00581124991775433,
-    "intercept": 24.494788483097793
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0025834031000228903,
-    "intercept": 1.090079252482989
-  },
-  {
-    "city": "delhi",
-    "country": "india",
-    "latitude": 28.7041,
-    "longitude": 77.1025,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0032654923320539907,
-    "intercept": -1.107255560775113
+    "slope": 0.0003021319737951325,
+    "intercept": -1.0016629626336973
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.0048167352551550125,
-    "intercept": 3.8019658150153854
+    "slope": 0.0011279620061281853,
+    "intercept": 3.1512285072707282
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.014021737698207052,
-    "intercept": 1010.3930599613213
+    "slope": -0.0010494609285042044,
+    "intercept": 1008.7749772020088
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.01664328296923475,
-    "intercept": 12.777900285531427
+    "slope": 0.001488941784509493,
+    "intercept": 14.08892292122119
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.004364174270075575,
-    "intercept": 24.35688357149056
+    "slope": 0.0010820753939688578,
+    "intercept": 24.875674097859303
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.00441463686836866,
-    "intercept": 1.4620408216446938
+    "slope": -0.000242325991258644,
+    "intercept": 0.777510640688334
   },
   {
     "city": "kolkata",
     "country": "india",
     "latitude": 22.5726,
     "longitude": 88.3639,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.0020536349892057056,
-    "intercept": 0.9812412362213365
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.020534773890131204,
-    "intercept": 0.16449348131765706
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.001408833575681727,
-    "intercept": 1009.757367723205
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.02750233790847861,
-    "intercept": 9.71174793783473
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.005264826110010783,
-    "intercept": 25.638013816525905
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.007331463078327218,
-    "intercept": 1.4596942163096336
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.002930485970807473,
-    "intercept": 0.5523514745479876
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.006381492150603187,
-    "intercept": 2.4818821460643266
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.0010369685365887093,
-    "intercept": 1007.1658554586619
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.008175080800844418,
-    "intercept": 14.417656768663498
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0012237881057599537,
-    "intercept": 25.780732589985558
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0013975535245002106,
-    "intercept": 0.6711891652024329
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.006289192684278643,
-    "intercept": 2.377593594889616
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.01118872359471829,
-    "intercept": 1.9583423356300291
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0019140253283056344,
-    "intercept": 1008.156453993884
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01899615681283616,
-    "intercept": 11.957811909336812
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.0059098980384973306,
-    "intercept": 27.69062543135579
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.003713452523896208,
-    "intercept": 1.3329830809502408
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.004220719962835148,
-    "intercept": 1.2605408329606025
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.015096443400594043,
-    "intercept": 2.380168666230047
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.009045475242748895,
-    "intercept": 1009.0682073210834
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.018524943026460516,
-    "intercept": 12.618403409617269
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.001924292249632393,
-    "intercept": 26.67871769048526
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.004230558717227706,
-    "intercept": 1.2875632082857376
-  },
-  {
-    "city": "kolkata",
-    "country": "india",
-    "latitude": 22.5726,
-    "longitude": 88.3639,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.001137487339972295,
-    "intercept": 0.7621242412034653
+    "slope": -0.00017433656202826006,
+    "intercept": 0.7995790349059884
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.033440909528214685,
-    "intercept": -1.5007436001400007
+    "slope": 0.0012542435644062155,
+    "intercept": 3.248142719763636
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.011885772230927138,
-    "intercept": 1005.3433313804729
+    "slope": -0.0004877095277675852,
+    "intercept": 1003.7307514785972
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.009942653191080989,
-    "intercept": 15.528995976704815
+    "slope": 0.0008047063786763576,
+    "intercept": 16.650789744079027
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.003436693807174099,
-    "intercept": 28.49665207555835
+    "slope": 0.0004656626309978538,
+    "intercept": 27.451964503351604
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.006432176873775995,
-    "intercept": -1.9158412501646191
+    "slope": 0.0007227256190241451,
+    "intercept": -1.2364295990018213
   },
   {
     "city": "chennai",
     "country": "india",
     "latitude": 13.0827,
     "longitude": 80.2707,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.009929566842926648,
-    "intercept": 2.1663448887666235
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.05498113744573075,
-    "intercept": -1.2518340796110925
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.008758660763860872,
-    "intercept": 1005.3902134134611
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.014225001175135315,
-    "intercept": 15.191146658370792
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.003649339908991061,
-    "intercept": 26.573235033439296
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.004368291818811048,
-    "intercept": -2.1192218205309614
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.004551410701769959,
-    "intercept": 0.2458888344683317
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.02502326609195032,
-    "intercept": -0.8310022342503149
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.003372857664303569,
-    "intercept": 1002.9763936726004
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.0065222882089010555,
-    "intercept": 16.145578103928614
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0024557712289672087,
-    "intercept": 28.09222520790699
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.0033849010279401433,
-    "intercept": -0.8552035163831042
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.006582484640312477,
-    "intercept": 1.18065860233706
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.028520442849794273,
-    "intercept": -1.0101195548040884
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.004268198215826806,
-    "intercept": 1004.5106486192303
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.011791887193683863,
-    "intercept": 15.22625941374904
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.0010288520158708795,
-    "intercept": 27.806302815867166
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.0043604533019871395,
-    "intercept": -1.2264067401487089
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.005433693677338431,
-    "intercept": 1.24252882288183
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.030189740343639988,
-    "intercept": -1.072636347017438
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.011359296069537367,
-    "intercept": 1005.2461808970178
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.009728519709134954,
-    "intercept": 15.885469096601007
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.002468284645652035,
-    "intercept": 28.812920419049828
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.005883638717719882,
-    "intercept": -1.4679244743442903
-  },
-  {
-    "city": "chennai",
-    "country": "india",
-    "latitude": 13.0827,
-    "longitude": 80.2707,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.008452350146884243,
-    "intercept": 1.926916542400234
+    "slope": -0.0002190536646870197,
+    "intercept": 0.37551933802245857
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.011951184277030466,
-    "intercept": 0.5836313512975022
+    "slope": 0.00019005810851191465,
+    "intercept": 2.672251639712082
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.006706765558059862,
-    "intercept": 917.8601681992756
+    "slope": -1.9569718570774103e-05,
+    "intercept": 916.8346419370397
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.016412136140227566,
-    "intercept": 10.563182058974526
+    "slope": 0.0008325109168346187,
+    "intercept": 12.652815353012727
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.01771782061208026,
-    "intercept": 27.0053344336217
+    "slope": 0.00021350910339275068,
+    "intercept": 23.689559875826426
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.008248107259271989,
-    "intercept": -1.5610261268163528
+    "slope": 0.0009679736158496237,
+    "intercept": -0.9784497111667818
   },
   {
     "city": "bengaluru",
     "country": "india",
     "latitude": 12.9716,
     "longitude": 77.5946,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.009408114483347925,
-    "intercept": 1.952347000205716
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.018675790710727527,
-    "intercept": 0.46081675688596135
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.003048554234082297,
-    "intercept": 917.652815900587
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.023405862489329163,
-    "intercept": 9.959468431226668
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.008683876052787682,
-    "intercept": 24.334465183761715
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.009350933779284993,
-    "intercept": -3.007240319756999
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0034985600495146076,
-    "intercept": 0.5143073932567188
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.01522211416070298,
-    "intercept": 1.4033177915795951
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.000948226977820597,
-    "intercept": 916.2088423004694
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.011813725613421464,
-    "intercept": 11.63470960296579
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.011454832820790687,
-    "intercept": 25.22055307993465
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.004104840251179137,
-    "intercept": -0.4682243408704942
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.005263915099357543,
-    "intercept": 0.7321031988318789
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.004869701486939213,
-    "intercept": 1.180662727270052
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0013350420688821186,
-    "intercept": 917.6112023283401
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.014041437469665064,
-    "intercept": 10.637412349172285
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.00114494035899718,
-    "intercept": 23.770212372977543
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.0058708756646563215,
-    "intercept": -0.8842005248643867
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.0030079547192216143,
-    "intercept": 0.42395977601788215
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.011988135761028623,
-    "intercept": 0.37709483410518807
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.006647576755919034,
-    "intercept": 918.0259005011532
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.019100896569124653,
-    "intercept": 9.995980044262826
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.014333182724025046,
-    "intercept": 27.329006790461282
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.008044999128643957,
-    "intercept": -1.2889254425715304
-  },
-  {
-    "city": "bengaluru",
-    "country": "india",
-    "latitude": 12.9716,
-    "longitude": 77.5946,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.0072100499651716245,
-    "intercept": 1.708508538662356
+    "slope": -0.0002624032304940853,
+    "intercept": 0.318648401333315
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.011095792829105403,
-    "intercept": 1.1468124116914222
+    "slope": 0.0004374997798704443,
+    "intercept": 2.018783198504396
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.006643025230397691,
-    "intercept": 954.6898642246705
+    "slope": -0.0003211974992673862,
+    "intercept": 953.9280172049193
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.017977032017611038,
-    "intercept": 10.537063057150837
+    "slope": 0.0012680009264719717,
+    "intercept": 12.219888328111612
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.018477825806982463,
-    "intercept": 28.811085509643895
+    "slope": 4.0411066247469095e-05,
+    "intercept": 25.799250053256586
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0051381111174743045,
-    "intercept": -0.7784801561562871
+    "slope": 0.0008179086137429648,
+    "intercept": -0.4879082565192311
   },
   {
     "city": "hyderabad",
     "country": "india",
     "latitude": 17.385,
     "longitude": 78.4867,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.006185033607572072,
-    "intercept": 1.4513495702787225
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.004714761729667051,
-    "intercept": 0.15228714265033694
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0018500641864122825,
-    "intercept": 955.148502987777
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.023972932834221874,
-    "intercept": 9.066277408821106
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.008463457207526741,
-    "intercept": 26.193473676604935
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.00262566500464033,
-    "intercept": -1.5306216624347628
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.009982468721242655,
-    "intercept": 1.3754853269924134
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0061692981882925215,
-    "intercept": 1.5295568720686796
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0007755825126998094,
-    "intercept": 952.5430985053581
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.017279959194230952,
-    "intercept": 10.36508678656275
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.012390098207125038,
-    "intercept": 27.860656933466522
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.0019276688614333654,
-    "intercept": 0.1337149578723032
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.005485429119514166,
-    "intercept": 0.8897664996648295
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.004123516593853993,
-    "intercept": 1.7595578375787606
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0005557933589126619,
-    "intercept": 954.1842055471442
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01801928132347146,
-    "intercept": 9.749560949556411
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.011374898776709686,
-    "intercept": 28.046838310430758
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.003061001267280212,
-    "intercept": 0.0896875891054002
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.006186929697638034,
-    "intercept": 0.708721893898088
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.007903334954618108,
-    "intercept": 1.089863047668029
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.005965894647927921,
-    "intercept": 954.5320991630749
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.01871378798212947,
-    "intercept": 10.530416206424643
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.017774972612915024,
-    "intercept": 29.688284365891818
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.0030148647008131275,
-    "intercept": -0.053277038499368434
-  },
-  {
-    "city": "hyderabad",
-    "country": "india",
-    "latitude": 17.385,
-    "longitude": 78.4867,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.01024801473176389,
-    "intercept": 2.177036844086922
+    "slope": -0.0005063730113688621,
+    "intercept": 0.4849100682679942
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.012361405006155885,
-    "intercept": 0.5453906832876778
+    "slope": 0.0009473167603036584,
+    "intercept": 1.4081738686698553
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.011262358087844423,
-    "intercept": 1005.1664439307737
+    "slope": -0.00046138734135996564,
+    "intercept": 1003.8952104346487
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.02475293392809633,
-    "intercept": 7.5828456551229655
+    "slope": 0.002227157188626714,
+    "intercept": 9.547399117178228
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.001295197416717481,
-    "intercept": 26.914919227395753
+    "slope": 0.00032823602893726803,
+    "intercept": 26.76353633496474
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.002909541045378745,
-    "intercept": 1.3201748983018642
+    "slope": 0.0002160264915215483,
+    "intercept": 0.8977675585660596
   },
   {
     "city": "ahmedabad",
     "country": "india",
     "latitude": 23.0225,
     "longitude": 72.5714,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0028251630048099392,
-    "intercept": -0.6516761919967144
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.002521611368220947,
-    "intercept": 0.10893273277620724
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.0024672628760311946,
-    "intercept": 1004.8997234773424
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.028766619832937622,
-    "intercept": 5.121300015884676
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.0021818670129673265,
-    "intercept": 26.4962944515205
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.011108119634784655,
-    "intercept": 1.7150942625881311
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.0040091305027977605,
-    "intercept": -1.0884056059463143
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0059684766105262835,
-    "intercept": 1.0876105952088597
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0018540061666945942,
-    "intercept": 1002.1167723194774
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.021432983766191016,
-    "intercept": 7.691993389238558
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.007798885069603255,
-    "intercept": 28.88509244305908
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.007358677139009949,
-    "intercept": 2.7663411364710133
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0007190736767721695,
-    "intercept": -0.10782054615778669
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.005842137488950682,
-    "intercept": 1.4534988959904922
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0022839270038439003,
-    "intercept": 1004.4808171947224
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.023388924222070895,
-    "intercept": 7.714427932535768
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.0036744227585922954,
-    "intercept": 27.764899424134533
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.00390134403994878,
-    "intercept": 1.907482401364068
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.001002758765420345,
-    "intercept": -0.23349492191044263
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.010396131728166483,
-    "intercept": 0.830746759916341
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.005855531551928568,
-    "intercept": 1004.1543030710969
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.02807029930791741,
-    "intercept": 7.153662214812321
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.011243753291989877,
-    "intercept": 29.436422572260412
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.00482003390604635,
-    "intercept": 2.167629519850905
-  },
-  {
-    "city": "ahmedabad",
-    "country": "india",
-    "latitude": 23.0225,
-    "longitude": 72.5714,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.004079321280652434,
-    "intercept": -0.9516712690718342
+    "slope": 0.00020143523163093635,
+    "intercept": -0.3439478969739753
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.025048058779500882,
-    "intercept": 1.7244223655703381
+    "slope": 0.002257395179522193,
+    "intercept": 3.6539906478073965
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.007733135140837059,
-    "intercept": 939.9106317313748
+    "slope": -5.143539009299769e-05,
+    "intercept": 938.9403986743189
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.01887244455748186,
-    "intercept": 10.381162731966082
+    "slope": 0.0010740036317928691,
+    "intercept": 12.272199004826556
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.004734793035763886,
-    "intercept": 24.52149307367229
+    "slope": 2.4526863013349828e-05,
+    "intercept": 23.792267826793246
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.002937276165660382,
-    "intercept": 1.5987787342250614
+    "slope": 0.0004349815772044072,
+    "intercept": 0.6803374572650481
   },
   {
     "city": "pune",
     "country": "india",
     "latitude": 18.5204,
     "longitude": 73.8567,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.004771237011905815,
-    "intercept": -0.8866633666403987
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.012087627864448934,
-    "intercept": 0.6428651209618139
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.00043853110531147794,
-    "intercept": 939.7463478083657
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.02184874740932615,
-    "intercept": 9.390023644015892
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.009739978501698233,
-    "intercept": 24.91792793680009
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.006620993764692791,
-    "intercept": 0.23171774592268046
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.002716222471253393,
-    "intercept": -0.9330044236786802
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0182617374821991,
-    "intercept": 2.7694730970573938
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.00035471752854841575,
-    "intercept": 938.0960035922781
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.016966119286571272,
-    "intercept": 10.22248188153005
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.008266522841037916,
-    "intercept": 24.984074524512437
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.00496574612036704,
-    "intercept": 2.3702867380941552
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0025686634902063114,
-    "intercept": -0.7792689635341508
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.01363387781544317,
-    "intercept": 2.83566546396562
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.001557032182967601,
-    "intercept": 939.8412027026197
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.019587858220476626,
-    "intercept": 9.495807590119814
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.0050633987935342715,
-    "intercept": 24.744470049508816
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.00116778722537333,
-    "intercept": 1.45600760503932
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0030035980420145807,
-    "intercept": -0.8407007203582608
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.019013139447479236,
-    "intercept": 3.702422261632168
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.005717871781466128,
-    "intercept": 939.7411152337903
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.020071708947664472,
-    "intercept": 9.923053555888776
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.011970551045292599,
-    "intercept": 26.422332376519677
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.00560372902785269,
-    "intercept": 2.4446351337925614
-  },
-  {
-    "city": "pune",
-    "country": "india",
-    "latitude": 18.5204,
-    "longitude": 73.8567,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.002744116096279564,
-    "intercept": -0.6184664133299805
+    "slope": 0.00019639398936536972,
+    "intercept": -0.42796542872555376
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.022955884412751256,
-    "intercept": 1.2679294830288943
+    "slope": 0.001140286855536818,
+    "intercept": 3.250046418567844
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.010751976921758605,
-    "intercept": 1003.7793829677744
+    "slope": -0.0003299249585292795,
+    "intercept": 1002.5657992072523
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.022320322252651365,
-    "intercept": 9.916825102786996
+    "slope": 0.001605644003481476,
+    "intercept": 12.063260941436402
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "T2M",
-    "slope": -0.0037920392899953924,
-    "intercept": 27.711349969042523
+    "slope": 9.255763390643929e-05,
+    "intercept": 27.071203290167244
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0030778200129715602,
-    "intercept": 1.704925649216946
+    "slope": 0.0001776496446839586,
+    "intercept": 1.0866391603282468
   },
   {
     "city": "surat",
     "country": "india",
     "latitude": 21.1702,
     "longitude": 72.8311,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0023485946352692056,
-    "intercept": 0.015211819220876721
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.00791683038170963,
-    "intercept": 0.07644761100016462
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.0012018363476822137,
-    "intercept": 1003.4873098727169
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.03459008909743696,
-    "intercept": 7.359588313189666
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.013533418128553559,
-    "intercept": 28.40583237519993
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.010935043118958796,
-    "intercept": 1.5579177891758975
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.0015213398769485136,
-    "intercept": -0.42736000602894997
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.013766064214160415,
-    "intercept": 2.6333457267786575
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.0002203292743442787,
-    "intercept": 1001.505489858088
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.01652854840271904,
-    "intercept": 10.817666703163818
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.006341449891855714,
-    "intercept": 28.036938620735842
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.007229424566683835,
-    "intercept": 2.8470174626872824
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.00034091464400168455,
-    "intercept": 0.5832132006466956
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.007373414594452002,
-    "intercept": 2.4010110518552104
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0032658291406503785,
-    "intercept": 1003.4872940573803
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.020677065467434315,
-    "intercept": 9.517287930618767
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "T2M",
-    "slope": -0.003089469848646331,
-    "intercept": 28.0136609585994
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.003949113772613554,
-    "intercept": 2.1651975848292144
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0016988723198717631,
-    "intercept": 0.16456820666410593
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.018260907808088173,
-    "intercept": 1.6776148956173138
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.005844386893721213,
-    "intercept": 1002.9714240892434
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.0243139998522233,
-    "intercept": 9.712242500916076
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.012995348423770519,
-    "intercept": 29.785999510889525
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.005933259829758466,
-    "intercept": 2.5043638030541495
-  },
-  {
-    "city": "surat",
-    "country": "india",
-    "latitude": 21.1702,
-    "longitude": 72.8311,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0024966052650201333,
-    "intercept": -0.10545810331976097
+    "slope": 0.00019033715586554245,
+    "intercept": 0.1806838501620232
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.004467649439594516,
-    "intercept": 0.7556986559198329
+    "slope": 0.0009542005142769686,
+    "intercept": 1.0451562673500012
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.010321291990495966,
-    "intercept": 964.5723819265143
+    "slope": -0.0015027280780207804,
+    "intercept": 963.7716926693878
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.009935691865640126,
-    "intercept": 7.565901438658276
+    "slope": 0.0035068680158991455,
+    "intercept": 7.271674190306937
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.011274721738455241,
-    "intercept": 22.91326926312045
+    "slope": 0.0018224180230902748,
+    "intercept": 23.57924316962941
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.0017900948684550823,
-    "intercept": 0.5636229498722104
+    "slope": 0.0007400008444577558,
+    "intercept": 0.018192092710952457
   },
   {
     "city": "jaipur",
     "country": "india",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.000823152887012665,
-    "intercept": -0.7720509751342303
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.00014961827060289726,
-    "intercept": 0.6211045847757466
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.003945963834692446,
-    "intercept": 964.5692177288195
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.018809082358702805,
-    "intercept": 4.532942451873469
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.003829378274106748,
-    "intercept": 23.212678497134124
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.002060874403936981,
-    "intercept": 0.11641878950235646
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.0017354396459800913,
-    "intercept": -1.0216882133958465
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.003123310658437035,
-    "intercept": 1.6355463201857443
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0037445044991553547,
-    "intercept": 960.8234153141681
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.017350867425778033,
-    "intercept": 7.198779314271643
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0010093906128583556,
-    "intercept": 25.535196334465805
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0028952960964007102,
-    "intercept": 1.1981581758046076
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.00022851799063675456,
-    "intercept": -0.45453777436867887
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.003742249259597583,
-    "intercept": 1.52864187311616
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.02710067977581356,
-    "intercept": 966.475959274156
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.0412703220475248,
-    "intercept": 5.024318347263053
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.03518450831419996,
-    "intercept": 20.368729780184545
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.001686312929864333,
-    "intercept": 0.7373994886257519
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.001990986898831641,
-    "intercept": -0.5972137355197387
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.00512529847973125,
-    "intercept": 0.0507166105966176
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.49279325492216347,
-    "intercept": 971.7410975908015
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.19965244862447154,
-    "intercept": 3.063271963709966
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.9289306342529001,
-    "intercept": 10.45884063290122
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.1901109415098137,
-    "intercept": -1.8881675846409882
-  },
-  {
-    "city": "jaipur",
-    "country": "india",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.02942518701649503,
-    "intercept": 0.24324802743316998
+    "slope": 0.00048632711405361225,
+    "intercept": -0.8221361717545972
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.0010517407874783005,
-    "intercept": 2.5738914788269627
+    "slope": 0.0008230227968440751,
+    "intercept": 1.9562860158333235
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.013541426241501628,
-    "intercept": 997.3315562050219
+    "slope": -0.0008898251915241072,
+    "intercept": 995.731273362795
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.00883653421711053,
-    "intercept": 9.940640972595146
+    "slope": 0.002096445625664889,
+    "intercept": 9.386519328015059
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.012542540809260766,
-    "intercept": 22.331849269508513
+    "slope": 0.0014725499419849112,
+    "intercept": 23.755213468755915
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "U10M",
-    "slope": 0.0014791622811265678,
-    "intercept": 0.42173516879177175
+    "slope": -3.196016045834728e-05,
+    "intercept": 0.9500407815043057
   },
   {
     "city": "lucknow",
     "country": "india",
     "latitude": 26.8467,
     "longitude": 80.9462,
-    "year": 2020,
     "target": "V10M",
-    "slope": -0.00043880705860055425,
-    "intercept": -0.005739465850090109
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.0072637704777509336,
-    "intercept": 0.39131900786461615
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.006314912636422143,
-    "intercept": 996.5052685080213
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.031424095604835195,
-    "intercept": 3.865738286000107
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "T2M",
-    "slope": -0.01809912217779278,
-    "intercept": 25.188463292433624
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.004826437326515371,
-    "intercept": 2.322518425665222
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0005506972701229423,
-    "intercept": -0.6863907653941624
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.009187684356311844,
-    "intercept": 1.277388767267594
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0031149502240734703,
-    "intercept": 993.1339553104439
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.021327363972712374,
-    "intercept": 7.925952340300467
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.002184538861458787,
-    "intercept": 25.8203272235179
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.002229018669656049,
-    "intercept": 0.8175620940261958
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.004052056973224974,
-    "intercept": -0.6904993370007103
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.0054488216889529645,
-    "intercept": 1.6176813729511745
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0012017642903322926,
-    "intercept": 995.3931189935208
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01943189898982596,
-    "intercept": 8.379175385970607
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.0033900858152805047,
-    "intercept": 24.930926417849854
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.004085760702549057,
-    "intercept": 1.799854977969046
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0006773610972173981,
-    "intercept": -0.19629820304931367
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.0067784268232623885,
-    "intercept": 1.9670718102933207
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.007498146289695772,
-    "intercept": 995.8592581082274
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.029600056396063237,
-    "intercept": 6.389766614596177
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.0006182273585986662,
-    "intercept": 25.932161341455735
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0029029083654013793,
-    "intercept": 1.5157968314671864
-  },
-  {
-    "city": "lucknow",
-    "country": "india",
-    "latitude": 26.8467,
-    "longitude": 80.9462,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0016460184304298343,
-    "intercept": -0.29282969326778424
+    "slope": 0.00026484614447399543,
+    "intercept": -0.35148426532695004
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "PRECTOTCORR",
-    "slope": 0.004446078019808976,
-    "intercept": 2.3507860241038445
+    "slope": -0.00017777059466111896,
+    "intercept": 2.3306962235425894
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "PS",
-    "slope": -0.012935095875527186,
-    "intercept": 1003.9851149163402
+    "slope": -0.001089961328698457,
+    "intercept": 1002.484207541347
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "QV2M",
-    "slope": 0.021734408545048434,
-    "intercept": 9.166788479016002
+    "slope": 0.0014576017113167607,
+    "intercept": 10.681548013341313
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "T2M",
-    "slope": 0.0036467889246164006,
-    "intercept": 24.124627898058467
+    "slope": 0.0020909911288426292,
+    "intercept": 24.10628299041948
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "U10M",
-    "slope": -0.002190112262624501,
-    "intercept": 1.0237287637184895
+    "slope": -0.00023161110572734642,
+    "intercept": 0.9183532033687914
   },
   {
     "city": "patna",
     "country": "india",
     "latitude": 25.5941,
     "longitude": 85.1376,
-    "year": 2020,
     "target": "V10M",
-    "slope": 0.0019991891795429055,
-    "intercept": -0.04445500500621158
+    "slope": -0.00014284667692217144,
+    "intercept": 0.06726245276374707
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "PRECTOTCORR",
-    "slope": 0.008036329005376541,
-    "intercept": 0.40267359179938356
+    "slope": 0.002000366740109747,
+    "intercept": 4.975472812165244
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "PS",
-    "slope": 0.004361142242600316,
-    "intercept": 1003.2686212630036
+    "slope": -0.0008753349614839852,
+    "intercept": 1008.4585149531534
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "QV2M",
-    "slope": 0.03432512634208775,
-    "intercept": 4.836946743740385
+    "slope": 0.001689169083828042,
+    "intercept": 14.162471818992362
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "T2M",
-    "slope": -0.009739827511538308,
-    "intercept": 24.81126018604999
+    "slope": 0.0009329927408998904,
+    "intercept": 24.417200227100405
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "U10M",
-    "slope": -0.0039737744821953845,
-    "intercept": 2.0454469266286233
+    "slope": -0.000357757676572987,
+    "intercept": 0.26020635135854264
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2021,
+    "city": "dhaka",
+    "country": "bangladesh",
+    "latitude": 23.8103,
+    "longitude": 90.4125,
     "target": "V10M",
-    "slope": -0.001173359192477206,
-    "intercept": -0.042976166603009736
+    "slope": 0.0001351913679946138,
+    "intercept": 0.7065341117392856
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "PRECTOTCORR",
-    "slope": 0.003750138298240733,
-    "intercept": 1.2696861684084337
+    "slope": 0.0031038687975349097,
+    "intercept": 6.060952468322686
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "PS",
-    "slope": 0.0032494770337104842,
-    "intercept": 999.8449004470594
+    "slope": -0.00091108367932781,
+    "intercept": 1006.0540270862393
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "QV2M",
-    "slope": 0.016673785460747388,
-    "intercept": 9.353605774369377
+    "slope": 0.0014869404968750543,
+    "intercept": 14.948012745760284
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "T2M",
-    "slope": -0.0013060193838668858,
-    "intercept": 26.507501265363576
+    "slope": 0.0010875127435859449,
+    "intercept": 24.45048054555816
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "U10M",
-    "slope": -0.0007657965006957028,
-    "intercept": 0.23413826824828915
+    "slope": -0.0001649681788573719,
+    "intercept": 0.2859551425007797
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2022,
+    "city": "chittagong",
+    "country": "bangladesh",
+    "latitude": 22.3569,
+    "longitude": 91.7832,
     "target": "V10M",
-    "slope": -0.0001694643379494177,
-    "intercept": -0.10325460601950814
+    "slope": 0.0002032540903609483,
+    "intercept": 0.6090589806482831
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "PRECTOTCORR",
-    "slope": 0.00709211722323555,
-    "intercept": 0.9800106647930515
+    "slope": 0.0009451752680311188,
+    "intercept": 5.836568685378818
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "PS",
-    "slope": -0.0016037525484617773,
-    "intercept": 1001.8822583205553
+    "slope": 0.000190403552466666,
+    "intercept": 995.4158519133927
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "QV2M",
-    "slope": 0.026138803245030637,
-    "intercept": 7.301873714278159
+    "slope": 0.00068243237848888,
+    "intercept": 17.895766944555405
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "T2M",
-    "slope": -0.0002511648312619289,
-    "intercept": 26.87309790256542
+    "slope": 0.0001958514457890125,
+    "intercept": 26.49998486085338
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "U10M",
-    "slope": -0.006216050848580532,
-    "intercept": 1.9824466915700782
+    "slope": 0.0007127244173920191,
+    "intercept": 1.2116914462699173
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2023,
+    "city": "colombo",
+    "country": "sri lanka",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
     "target": "V10M",
-    "slope": 0.00270450132237825,
-    "intercept": -0.689941592164786
+    "slope": 0.00046679511386525223,
+    "intercept": -0.2594454040030004
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "PRECTOTCORR",
-    "slope": 0.004103586492717694,
-    "intercept": 1.2712566233592022
+    "slope": 0.0006925157508189948,
+    "intercept": 4.887383114576306
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "PS",
-    "slope": -0.007896929517520516,
-    "intercept": 1002.4339711324222
+    "slope": 3.844137916380138e-05,
+    "intercept": 976.0358709751777
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "QV2M",
-    "slope": 0.0265580439768388,
-    "intercept": 7.513683378869668
+    "slope": 0.0005949091541149245,
+    "intercept": 16.814963800763625
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "T2M",
-    "slope": 0.0027075690484994995,
-    "intercept": 26.473195524067997
+    "slope": 0.0005180040038568314,
+    "intercept": 24.74864919915285
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "U10M",
-    "slope": -0.005166169620560051,
-    "intercept": 1.6748378232910928
+    "slope": 0.0010533785297382279,
+    "intercept": 0.2577258234063058
   },
   {
-    "city": "patna",
-    "country": "india",
-    "latitude": 25.5941,
-    "longitude": 85.1376,
-    "year": 2024,
+    "city": "kandy",
+    "country": "sri lanka",
+    "latitude": 7.2906,
+    "longitude": 80.6337,
     "target": "V10M",
-    "slope": 0.0017038936828585583,
-    "intercept": -0.3636322330928684
+    "slope": 0.0004812019770080919,
+    "intercept": 0.0974903985874615
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "PRECTOTCORR",
-    "slope": 0.008408628344399724,
-    "intercept": 6.046846623685752
+    "slope": 0.0011024944182179662,
+    "intercept": 2.4428616973701276
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "PS",
-    "slope": -0.013118963523299446,
-    "intercept": 1009.972916715596
+    "slope": -0.00018577912956953523,
+    "intercept": 873.617811795135
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "QV2M",
-    "slope": 0.0206007541335961,
-    "intercept": 12.425487193191323
+    "slope": 0.001724279260515831,
+    "intercept": 9.13907542560783
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "T2M",
-    "slope": 0.007445751145486493,
-    "intercept": 23.538809044468604
+    "slope": 0.0014957091436121125,
+    "intercept": 17.39266140491975
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "U10M",
-    "slope": -0.002666156052310874,
-    "intercept": 0.47724370173460484
+    "slope": -7.730877115086923e-05,
+    "intercept": 0.8547527072548404
   },
   {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2020,
+    "city": "kathmandu",
+    "country": "nepal",
+    "latitude": 27.7172,
+    "longitude": 85.324,
     "target": "V10M",
-    "slope": 0.000997477583493423,
-    "intercept": 0.7311573398939524
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.01543750479833719,
-    "intercept": 1.2495113620131628
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "PS",
-    "slope": -6.455227764785122e-05,
-    "intercept": 1009.5668516871676
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.025005325785450082,
-    "intercept": 9.90799575076926
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.003969812838032108,
-    "intercept": 23.769509937827266
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.0022451231413975433,
-    "intercept": 0.5560358545003634
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 7.732425685647811e-05,
-    "intercept": -0.017079978297447486
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.00573847177906241,
-    "intercept": 5.077499272417776
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.00040562904810546456,
-    "intercept": 1007.0410384098099
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.012905853862893347,
-    "intercept": 13.692345737314605
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.0031091280212964135,
-    "intercept": 24.74093078127919
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0019328854835886857,
-    "intercept": 0.30760627030380744
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.003418594980822372,
-    "intercept": 1.7516633979447553
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.013124943190229301,
-    "intercept": 4.605318839741705
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.001925127034444389,
-    "intercept": 1008.019552129972
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01849708608428761,
-    "intercept": 12.562909807406621
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.002070067863379537,
-    "intercept": 25.450312786614887
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.0021779466198748676,
-    "intercept": 0.24743741841456893
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2023,
-    "target": "V10M",
-    "slope": -0.0012654453959606022,
-    "intercept": 1.0838819724881092
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.013654018255127406,
-    "intercept": 5.831746917645544
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.007917756591615525,
-    "intercept": 1008.7810962993099
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.016050163228978082,
-    "intercept": 13.320376332601668
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.0027850144558298254,
-    "intercept": 24.92822797698431
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.003740775063259812,
-    "intercept": 0.48613495675233387
-  },
-  {
-    "city": "dhaka",
-    "country": "bangladesh",
-    "latitude": 23.8103,
-    "longitude": 90.4125,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.0017741213339537917,
-    "intercept": 1.2439247638158146
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "PRECTOTCORR",
-    "slope": 0.02510795483047299,
-    "intercept": 6.487598343652218
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "PS",
-    "slope": -0.013444235214862854,
-    "intercept": 1007.6438084540916
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "QV2M",
-    "slope": 0.016447316621298808,
-    "intercept": 13.56340878889338
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "T2M",
-    "slope": 0.009726290828435355,
-    "intercept": 23.39588027564387
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "U10M",
-    "slope": -0.001986387834437225,
-    "intercept": 0.49400766130502877
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2020,
-    "target": "V10M",
-    "slope": 0.003051561305145522,
-    "intercept": 0.5028409790674689
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.019628207776064253,
-    "intercept": 0.32048581986708147
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0006986992231907097,
-    "intercept": 1007.0171117021565
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.019878195242452594,
-    "intercept": 11.817615496852607
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.010702814811340864,
-    "intercept": 23.165497702113687
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.001220442182502746,
-    "intercept": 0.44528235179385034
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2021,
-    "target": "V10M",
-    "slope": -0.0017578251392623447,
-    "intercept": 0.018288734752441832
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.01217731263564392,
-    "intercept": 5.331983509274606
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.0034408679532884996,
-    "intercept": 1005.1631094447387
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.01332020899033302,
-    "intercept": 14.020528846352166
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.007588649150688457,
-    "intercept": 24.0156345272914
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0005907619036030318,
-    "intercept": 0.299866012508713
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2022,
-    "target": "V10M",
-    "slope": -0.002216216815306802,
-    "intercept": 1.4129202374002754
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.022926876177043073,
-    "intercept": 4.602448286130492
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.003340621712683214,
-    "intercept": 1005.827418736754
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.01546410682450659,
-    "intercept": 13.66468470053736
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.005609584431134616,
-    "intercept": 24.83805258135766
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.001994025854971131,
-    "intercept": 0.40163726188999593
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.001063474731342258,
-    "intercept": 0.5909190088518599
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.023424810382969733,
-    "intercept": 7.467289003800272
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.009680476842870274,
-    "intercept": 1006.7006707050908
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.013752149966997416,
-    "intercept": 14.337801579374103
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.007175230189597162,
-    "intercept": 24.424247034248914
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0013437906547984723,
-    "intercept": 0.34589955382218285
-  },
-  {
-    "city": "chittagong",
-    "country": "bangladesh",
-    "latitude": 22.3569,
-    "longitude": 91.7832,
-    "year": 2024,
-    "target": "V10M",
-    "slope": -0.0003509823256723347,
-    "intercept": 1.0390570298451134
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "PRECTOTCORR",
-    "slope": 0.01706148455330087,
-    "intercept": 2.255780333350967
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "PS",
-    "slope": -0.006713544138662664,
-    "intercept": 996.6157133337485
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "QV2M",
-    "slope": 0.004037665974625187,
-    "intercept": 17.61704055873789
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "T2M",
-    "slope": -0.003175496358441185,
-    "intercept": 27.386952532161462
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "U10M",
-    "slope": 0.009706096851479133,
-    "intercept": 0.0821478364130348
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2020,
-    "target": "V10M",
-    "slope": 0.00346891083059964,
-    "intercept": -0.3855178049170904
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.024687682066448752,
-    "intercept": 5.2174396335941085
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0004061228551051908,
-    "intercept": 995.5829719643617
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.005491277218697442,
-    "intercept": 17.458629881973113
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 5.359573378422909e-05,
-    "intercept": 26.39784125490819
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.013406651020307674,
-    "intercept": -0.733204102397467
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.005608110443650025,
-    "intercept": -1.1695752302543667
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.010121727399863773,
-    "intercept": 4.847920192949449
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.0005548505424822374,
-    "intercept": 994.920444323197
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 3.885889883239155e-06,
-    "intercept": 18.22112977308841
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0026367485430952462,
-    "intercept": 26.71865481192366
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.007871623310692428,
-    "intercept": 1.0389997531775181
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.0017687918354656216,
-    "intercept": -0.24706710099635704
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.03588473789918371,
-    "intercept": 1.600800009817707
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "PS",
-    "slope": 0.0007878112735984031,
-    "intercept": 996.0539343442096
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.00623537436229664,
-    "intercept": 17.451841273538232
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.0019343716984746573,
-    "intercept": 26.28218655412415
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.008371389988406227,
-    "intercept": 0.12366812582729425
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.010229738951583156,
-    "intercept": -1.392970461523899
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.009616869200490851,
-    "intercept": 3.65569030174764
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.005227312588531443,
-    "intercept": 996.5610771643004
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.0024235043588486846,
-    "intercept": 18.536260920113218
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "T2M",
-    "slope": -0.0018133097378099517,
-    "intercept": 27.442236743775396
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.011096116309098103,
-    "intercept": -0.006848591552898853
-  },
-  {
-    "city": "colombo",
-    "country": "sri lanka",
-    "latitude": 6.9271,
-    "longitude": 79.8612,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.004577026141033626,
-    "intercept": -0.6292274443403646
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "PRECTOTCORR",
-    "slope": 0.02205730528581819,
-    "intercept": 0.47756817799647644
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "PS",
-    "slope": -0.008805831645070364,
-    "intercept": 977.4769923490458
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "QV2M",
-    "slope": 0.005408578519378605,
-    "intercept": 16.039737225592507
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "T2M",
-    "slope": -0.0006524106612794264,
-    "intercept": 25.539906518172973
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "U10M",
-    "slope": 0.014617543173056512,
-    "intercept": -1.5820947086190484
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2020,
-    "target": "V10M",
-    "slope": 0.005082347093015368,
-    "intercept": -0.3623131418672166
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.02403117861250534,
-    "intercept": 4.213437606933857
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "PS",
-    "slope": -0.0026284928262745007,
-    "intercept": 976.5389157679102
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.00450866164971543,
-    "intercept": 16.736910861207015
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.0023197798777400665,
-    "intercept": 24.25596991836264
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "U10M",
-    "slope": 0.014896704243500456,
-    "intercept": -1.8713548062766419
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.006472459625481183,
-    "intercept": -0.9331577029697888
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.010094507911151608,
-    "intercept": 3.808217497811218
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "PS",
-    "slope": -0.0010971658435858591,
-    "intercept": 975.6074323731018
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": -0.0005422005757891337,
-    "intercept": 17.318676109472783
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "T2M",
-    "slope": -0.0008878878280630572,
-    "intercept": 24.841136624718697
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "U10M",
-    "slope": 0.009084645880439727,
-    "intercept": 0.2601069263425264
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 0.003344124649345509,
-    "intercept": 0.04791502017396454
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.03361056486817041,
-    "intercept": 0.42004167151345495
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "PS",
-    "slope": -0.0010292203361572517,
-    "intercept": 976.8644971108837
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.005733181800071435,
-    "intercept": 16.382594289434778
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.005352913371182237,
-    "intercept": 24.229613674885428
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "U10M",
-    "slope": 0.008991691276108675,
-    "intercept": -0.45774449818787977
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.006793253174646305,
-    "intercept": -0.5405136874182969
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.005679616683487124,
-    "intercept": 3.2788739324174543
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.007233109700361018,
-    "intercept": 977.3902828433197
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.002007565822270302,
-    "intercept": 17.284371094726662
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.00021162467034722745,
-    "intercept": 25.82386995617241
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "U10M",
-    "slope": 0.014558402388216167,
-    "intercept": -1.2667762404421212
-  },
-  {
-    "city": "kandy",
-    "country": "sri lanka",
-    "latitude": 7.2906,
-    "longitude": 80.6337,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.005368651677149045,
-    "intercept": -0.38534916389178386
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "PRECTOTCORR",
-    "slope": 0.0013143772564726045,
-    "intercept": 3.3090849173650057
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "PS",
-    "slope": -0.005104435432511335,
-    "intercept": 874.2889902048336
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "QV2M",
-    "slope": 0.014716947685092742,
-    "intercept": 8.252894048557408
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "T2M",
-    "slope": 0.014605299281386716,
-    "intercept": 15.618702860890588
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "U10M",
-    "slope": -0.0007432281931422368,
-    "intercept": 0.813533742415406
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2020,
-    "target": "V10M",
-    "slope": -0.0001947270756449234,
-    "intercept": 0.8822051608453921
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "PRECTOTCORR",
-    "slope": 0.009484924910538702,
-    "intercept": 0.5518912579744875
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "PS",
-    "slope": 0.004434244164430528,
-    "intercept": 874.0301202024602
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "QV2M",
-    "slope": 0.03145104857086031,
-    "intercept": 4.180423607794433
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "T2M",
-    "slope": 0.000704872886225036,
-    "intercept": 17.19298246063226
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "U10M",
-    "slope": -0.004290437889912792,
-    "intercept": 1.5248491167359357
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2021,
-    "target": "V10M",
-    "slope": 0.0003802468943770408,
-    "intercept": 0.5511199718029292
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "PRECTOTCORR",
-    "slope": 0.0030201373928229872,
-    "intercept": 2.8535846364905266
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "PS",
-    "slope": 0.005017201636377797,
-    "intercept": 871.7469371264515
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "QV2M",
-    "slope": 0.013977302908061255,
-    "intercept": 8.85248290671399
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "T2M",
-    "slope": 0.005096513916630852,
-    "intercept": 17.862003555486343
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "U10M",
-    "slope": -0.0009967658899698553,
-    "intercept": 0.9362118585612706
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2022,
-    "target": "V10M",
-    "slope": 5.895200728575121e-05,
-    "intercept": 0.8742339106230044
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "PRECTOTCORR",
-    "slope": 0.006269200080040573,
-    "intercept": 2.1698882482797153
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "PS",
-    "slope": 0.002532561104981175,
-    "intercept": 873.2690949796581
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "QV2M",
-    "slope": 0.02098433070816691,
-    "intercept": 6.988575505555781
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "T2M",
-    "slope": 0.004369323453269089,
-    "intercept": 18.507088058898937
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "U10M",
-    "slope": -0.002213936423460881,
-    "intercept": 1.191968623630393
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2023,
-    "target": "V10M",
-    "slope": 0.0008315164976817203,
-    "intercept": 0.6866215500280347
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "PRECTOTCORR",
-    "slope": 0.008634494356774476,
-    "intercept": 2.76340586315448
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "PS",
-    "slope": -0.0014333293728671637,
-    "intercept": 873.552173759939
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "QV2M",
-    "slope": 0.025328902540901057,
-    "intercept": 6.529445591396337
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "T2M",
-    "slope": 0.006185372484746188,
-    "intercept": 18.15486128979792
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "U10M",
-    "slope": -0.0024369204715700634,
-    "intercept": 1.2195538658668617
-  },
-  {
-    "city": "kathmandu",
-    "country": "nepal",
-    "latitude": 27.7172,
-    "longitude": 85.324,
-    "year": 2024,
-    "target": "V10M",
-    "slope": 0.0008221103814078158,
-    "intercept": 0.7887961082432019
+    "slope": 0.00012580539320790462,
+    "intercept": 0.7323105375187541
   }
 ]
