@@ -7,6 +7,7 @@ import joblib
 import pickle
 import matplotlib.pyplot as plt
 from scipy.stats import t
+from scipy.stats import norm
 
 
 df = pd.read_csv("master_with_year.csv")  # Replace with your actual filename
@@ -211,57 +212,173 @@ def predict_and_plot_with_uncertainty(trend_map, df, lat, lon, target_year, targ
     
     return y_pred_target, lower, upper
 
-def predict_with_uncertainty_for_arbitrary_year(trend_map, df, lat, lon, doy_list, target_year, targets=TARGETS, confidence=0.95):
-    # Historical data for residuals (exclude target year if exists)
-    hist_df = df[(df['latitude'] == lat) & (df['longitude'] == lon)].sort_values('DOY')
+# def predict_with_uncertainty_for_arbitrary_year(trend_map, df, lat, lon, doy_list, target_year, targets=TARGETS, confidence=0.95):
+#     # Historical data for residuals (exclude target year if exists)
+#     hist_df = df[(df['latitude'] == lat) & (df['longitude'] == lon)].sort_values('DOY')
     
-    if hist_df.empty:
-        print(f"No historical data available for lat={lat}, lon={lon}")
-        return
+#     if hist_df.empty:
+#         print(f"No historical data available for lat={lat}, lon={lon}")
+#         return
 
-    # Compute residuals for each target using historical data
+#     # Compute residuals for each target using historical data
+#     residuals = []
+#     for _, row in hist_df.iterrows():
+#         pred = predict_from_trends(lat, lon, row['DOY'], trend_map)
+#         residuals.append([row[t] - pred[t] for t in targets])
+    
+#     residuals = np.array(residuals)
+    
+#     # Compute sigma and t-value for confidence interval
+#     sigma = [np.std(residuals[:, i], ddof=1) for i in range(len(targets))]
+#     t_vals = [t.ppf((1 + confidence)/2, df=len(residuals)-1) for _ in targets]
+    
+#     # Predictions for target year (arbitrary)
+#     y_pred_target = []
+#     lower_bounds = []
+#     upper_bounds = []
+    
+#     for doy in doy_list:
+#         pred = predict_from_trends(lat, lon, doy, trend_map)
+#         y_row = [pred[t] for t in targets]
+#         y_pred_target.append(y_row)
+        
+#         # Compute prediction intervals
+#         lower = [y_row[i] - t_vals[i]*sigma[i] for i in range(len(targets))]
+#         upper = [y_row[i] + t_vals[i]*sigma[i] for i in range(len(targets))]
+#         lower_bounds.append(lower)
+#         upper_bounds.append(upper)
+    
+#     # Convert to numpy arrays
+#     y_pred_target = np.array(y_pred_target)
+#     lower_bounds = np.array(lower_bounds)
+#     upper_bounds = np.array(upper_bounds)
+    
+#     # Return as a dictionary for easy access
+#     result = {
+#         'DOY': doy_list,
+#         'Predicted': y_pred_target,
+#         'Lower': lower_bounds,
+#         'Upper': upper_bounds
+#     }
+    
+#     return result
+
+# def compute_residual_stats_for_location(trend_map, df, lat, lon, targets):
+#     """
+#     Computes residuals across *all historical years* for a location
+#     Returns mean & std for residuals of each target
+#     """
+#     hist_df = df[(df['latitude'] == lat) & (df['longitude'] == lon)].sort_values('DOY')
+#     if hist_df.empty:
+#         print(f"No historical data for ({lat},{lon})")
+#         return None, None
+
+#     residuals = []
+#     for _, row in hist_df.iterrows():
+#         pred = predict_from_trends(lat, lon, row['DOY'], trend_map)
+#         residuals.append([row[t] - pred[t] for t in targets])
+
+#     residuals = np.array(residuals)
+#     sigma = np.std(residuals, axis=0, ddof=1)  # per target
+#     mu = np.mean(residuals, axis=0)            # just for info
+
+#     return mu, sigma
+
+
+# def predict_with_probabilities(
+#     trend_map, df, lat, lon, doy_list, targets,
+#     prob_target="PRECTOTCORR", prob_threshold=30.0
+# ):
+#     """
+#     Final upgraded function:
+#     ✅ Trend prediction
+#     ✅ Historical residual std across *all years*
+#     ✅ Probability of exceeding threshold
+#     """
+#     mu_res, sigma_res = compute_residual_stats_for_location(trend_map, df, lat, lon, targets)
+#     if sigma_res is None:
+#         return None
+
+#     prob_index = targets.index(prob_target)
+
+#     predictions = []
+#     probabilities = []
+
+#     for doy in doy_list:
+#         pred = predict_from_trends(lat, lon, doy, trend_map)
+#         values = [pred[t] for t in targets]
+#         predictions.append(values)
+
+#         mean = values[prob_index]
+#         std = sigma_res[prob_index] if sigma_res[prob_index] > 1e-6 else 1e-6
+#         prob_exceed = 1 - norm.cdf(prob_threshold, loc=mean, scale=std)
+#         probabilities.append(prob_exceed)
+
+#     return {
+#         "DOY": doy_list,
+#         "Predicted": np.array(predictions),
+#         "Probability": np.array(probabilities),
+#         "Residual_Mean": mu_res,
+#         "Residual_STD": sigma_res,
+#     }
+
+
+def predict_with_full_stats(
+    trend_map, df, lat, lon, doy_list, targets,
+    prob_target="PRECTOTCORR", prob_threshold=30.0, confidence=0.95
+):
+    """
+    Combines:
+    ✅ Trend-based prediction
+    ✅ Historical residual std (all past years at location)
+    ✅ Prediction intervals (lower / upper)
+    ✅ Probability of exceeding threshold
+    """
+    # 1. Compute full residual stats
+    hist_df = df[(df['latitude'] == lat) & (df['longitude'] == lon)].sort_values('DOY')
+    if hist_df.empty:
+        print(f"No historical data for ({lat},{lon})")
+        return None
+
     residuals = []
     for _, row in hist_df.iterrows():
         pred = predict_from_trends(lat, lon, row['DOY'], trend_map)
         residuals.append([row[t] - pred[t] for t in targets])
-    
+
     residuals = np.array(residuals)
-    
-    # Compute sigma and t-value for confidence interval
-    sigma = [np.std(residuals[:, i], ddof=1) for i in range(len(targets))]
-    t_vals = [t.ppf((1 + confidence)/2, df=len(residuals)-1) for _ in targets]
-    
-    # Predictions for target year (arbitrary)
-    y_pred_target = []
-    lower_bounds = []
-    upper_bounds = []
-    
+    mu_res = np.mean(residuals, axis=0)
+    sigma_res = np.std(residuals, axis=0, ddof=1)
+
+    # 2. Prepare prediction outputs
+    all_preds, all_lower, all_upper, all_probs = [], [], [], []
+
+    prob_index = targets.index(prob_target)
+    z_val = norm.ppf((1 + confidence) / 2)
+
     for doy in doy_list:
         pred = predict_from_trends(lat, lon, doy, trend_map)
         y_row = [pred[t] for t in targets]
-        y_pred_target.append(y_row)
-        
-        # Compute prediction intervals
-        lower = [y_row[i] - t_vals[i]*sigma[i] for i in range(len(targets))]
-        upper = [y_row[i] + t_vals[i]*sigma[i] for i in range(len(targets))]
-        lower_bounds.append(lower)
-        upper_bounds.append(upper)
-    
-    # Convert to numpy arrays
-    y_pred_target = np.array(y_pred_target)
-    lower_bounds = np.array(lower_bounds)
-    upper_bounds = np.array(upper_bounds)
-    
-    # Return as a dictionary for easy access
-    result = {
-        'DOY': doy_list,
-        'Predicted': y_pred_target,
-        'Lower': lower_bounds,
-        'Upper': upper_bounds
-    }
-    
-    return result
+        all_preds.append(y_row)
 
+        lower = [y_row[i] - z_val * sigma_res[i] for i in range(len(targets))]
+        upper = [y_row[i] + z_val * sigma_res[i] for i in range(len(targets))]
+        all_lower.append(lower)
+        all_upper.append(upper)
+
+        mean = y_row[prob_index]
+        std = sigma_res[prob_index] if sigma_res[prob_index] > 1e-6 else 1e-6
+        prob_exceed = 1 - norm.cdf(prob_threshold, loc=mean, scale=std)
+        all_probs.append(prob_exceed)
+
+    return {
+        "DOY": doy_list,
+        "Predicted": np.array(all_preds),
+        "Lower": np.array(all_lower),
+        "Upper": np.array(all_upper),
+        "Probability": np.array(all_probs),
+        "Residual_Mean": mu_res,
+        "Residual_STD": sigma_res,
+    }
 
 trend_map = load_trend_data()
 # train_test()
@@ -269,15 +386,53 @@ trend_map = load_trend_data()
 # model = load_model()
 
 # Define Karachi coordinates
-lat_karachi = 24.8607
-lon_karachi = 67.0011
-year_target = 2024
+# lat_karachi = 24.8607
+# lon_karachi = 67.0011
+# year_target = 2024
 
-doy_list = list(range(1, 366))
-result = predict_with_uncertainty_for_arbitrary_year(trend_map, df, lat_karachi, lon_karachi, doy_list, 2026)
+# doy_list = list(range(1, 366))
+# result = predict_with_uncertainty_for_arbitrary_year(trend_map, df, lat_karachi, lon_karachi, doy_list, 2026)
 
-# Example: predicted, lower, upper for PRECTOTCORR on day 50
-day_idx = 49  # DOY 50
-print(f"Predicted: {result['Predicted'][day_idx, 0]:.2f}")
-print(f"Lower: {result['Lower'][day_idx, 0]:.2f}")
-print(f"Upper: {result['Upper'][day_idx, 0]:.2f}")
+# # Example: predicted, lower, upper for PRECTOTCORR on day 50
+# day_idx = 49  # DOY 50
+# print(f"Predicted: {result['Predicted'][day_idx, 0]:.2f}")
+# print(f"Lower: {result['Lower'][day_idx, 0]:.2f}")
+# print(f"Upper: {result['Upper'][day_idx, 0]:.2f}")
+
+
+# Define single test day
+# lat = 24.8607
+# lon = 67.0011
+# single_doy = [227]   # 15th August (approx)
+# target_year = 2025
+
+# # Run prediction
+# result = predict_with_probabilities(
+#     trend_map, df,
+#     lat=lat, lon=lon,
+#     doy_list=single_doy,
+#     targets=['PRECTOTCORR', 'PS', 'QV2M', 'T2M', 'U10M', 'V10M'],
+#     prob_target="PRECTOTCORR",
+#     prob_threshold=3.0
+# )
+
+# # Display result
+# pred = result["Predicted"][0]
+# prob = result["Probability"][0]
+
+# print(f"Prediction for Karachi on DOY {single_doy[0]} (15 Aug 2025):")
+# print(f"  Rain (PRECTOTCORR): {pred[0]:.2f} mm")
+# print(f"  Chance of >3mm rain: {prob*100:.2f}%")
+# print(f"  Full Targets: {dict(zip(['PRECTOTCORR','PS','QV2M','T2M','U10M','V10M'], pred))}")
+
+
+result = predict_with_full_stats(
+    trend_map, df,
+    lat=24.8607, lon=67.0011,
+    doy_list=[227],  # August 15
+    targets=['PRECTOTCORR', 'PS', 'QV2M', 'T2M', 'U10M', 'V10M'],
+    prob_target="PRECTOTCORR",
+    prob_threshold=3.0
+)
+
+print(result)
