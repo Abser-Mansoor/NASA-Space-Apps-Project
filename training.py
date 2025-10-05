@@ -9,19 +9,24 @@ import pickle
 from scipy.stats import t, norm
 
 
-df = pd.read_csv("master_with_year.csv")  # Replace with your actual filename
-df.dropna(inplace=True)  # Simple cleanup, adjust as needed
+df = pd.read_csv("master_with_year.csv")
+df.dropna(inplace=True)
 
-# Define input & target columns
 FEATURES = [
     "latitude", "longitude", "PRECTOTCORR", "PS", "QV2M", "T2M", 
     "U10M", "V10M", "sst", "iod", "nao", "ao", "DOY", "year"
 ]
 
-TARGETS = ["PRECTOTCORR", "T2M", "U10M", "V10M", "QV2M", "PS"]  # Adjust later if needed
+TARGETS = ["PRECTOTCORR", "T2M", "U10M", "V10M", "QV2M", "PS"]
 
 def load_trend_data():
-    file_path = 'regression_results.pickle' # Replace with the actual path to your .pkl file
+    file_path = 'regression_results.pickle'
+    with open(file_path, 'rb') as file:
+        return pickle.load(file)
+    return None
+
+def load_residuals():
+    file_path = 'residuals_result.pickle'
     with open(file_path, 'rb') as file:
         return pickle.load(file)
     return None
@@ -277,24 +282,33 @@ def compute_location_residuals_all_years(
     return residuals_raw, wind_residuals, len(hist_df)
 
 
-def predict_with_full_stats_and_probs(
+def find_residuals_for_location(lat, lon, residuals):
+    df['dist'] = np.sqrt((df['latitude'] - lat)**2 + (df['longitude'] - lon)**2)
+    nearest = df.loc[df['dist'].idxmin()]
+    nearest_lat, nearest_lon = nearest['latitude'], nearest['longitude']
+
+    return residuals[(nearest_lat, nearest_lon)] if (nearest_lat, nearest_lon) in residuals else None
+
+def predict_with_full_stats_and_probs_single(
     trend_map,
     model,
     df: pd.DataFrame,
     lat: float,
     lon: float,
-    doy_list: List[int],
+    doy: int,
     year: int,
     targets: List[str]=DEFAULT_TARGETS,
     thresholds: Dict[str, float]=None,
     confidence: float=0.95,
+    rr=None
 ) -> Dict[str, Any]:
     if thresholds is None:
         thresholds = DEFAULT_THRESHOLDS.copy()
 
-    rr = compute_location_residuals_all_years(trend_map, model, df, lat, lon, targets)
     if rr is None:
-        raise ValueError(f"No historical data found at lat={lat}, lon={lon}")
+        rr = compute_location_residuals_all_years(trend_map, model, df, lat, lon, targets)
+        if rr is None:
+            raise ValueError(f"No historical data found at lat={lat}, lon={lon}")
 
     residuals_raw, wind_residuals, n_samples = rr
 
@@ -307,103 +321,81 @@ def predict_with_full_stats_and_probs(
     dfree = max(n_samples - 1, 1)
     t_val = t.ppf((1 + confidence) / 2.0, df=dfree)
 
-    preds = []
-    lowers = []
-    uppers = []
-    derived_wind_speed = []
-    derived_wind_dir = []
-    derived_lower_wind = []
-    derived_upper_wind = []
+    # --- Prediction ---
+    pred = predict_with_model(lat, lon, doy, year, trend_map, model)
+    y_row = np.array([pred[t] for t in targets], dtype=float)
 
-    prob_rain = []
-    prob_heavy_rain = []
-    prob_temp = []
-    prob_humidity = []
-    prob_wind_speed = []
-    prob_heatwave = []
+    lower = y_row - t_val * residual_std
+    upper = y_row + t_val * residual_std
 
+    # Derived wind
+    pred_u = pred['U10M']
+    pred_v = pred['V10M']
+    speed, direction = _wind_from_uv(pred_u, pred_v)
+    lower_w = speed - t_val * wind_res_std
+    upper_w = speed + t_val * wind_res_std
+
+    # Probability calculations
     idx_map = {t: i for i, t in enumerate(targets)}
     rain_idx = idx_map.get('PRECTOTCORR')
     temp_idx = idx_map.get('T2M')
     hum_idx = idx_map.get('QV2M')
 
-    for doy in doy_list:
-        pred = predict_with_model(lat, lon, doy, year, trend_map, model)
+    # Rain
+    mean_rain = y_row[rain_idx]
+    sigma_rain = residual_std[rain_idx] if residual_std[rain_idx] > 1e-6 else 1e-6
+    thr_rain = thresholds.get('PRECTOTCORR', 30.0)
+    prob_rain = 1.0 - norm.cdf(thr_rain, loc=mean_rain, scale=sigma_rain)
 
-        y_row = np.array([pred[t] for t in targets], dtype=float)
-        preds.append(y_row)
+    # Heavy Rain
+    thr_heavy = max(50.0, thresholds.get('PRECTOTCORR', 30.0))
+    prob_heavy_rain = 1.0 - norm.cdf(thr_heavy, loc=mean_rain, scale=sigma_rain)
 
-        lower = y_row - t_val * residual_std
-        upper = y_row + t_val * residual_std
-        lowers.append(lower)
-        uppers.append(upper)
+    # Temperature
+    mean_temp = y_row[temp_idx]
+    sigma_temp = residual_std[temp_idx] if residual_std[temp_idx] > 1e-6 else 1e-6
+    thr_t = thresholds.get('T2M', 35.0)
+    prob_temp = 1.0 - norm.cdf(thr_t, loc=mean_temp, scale=sigma_temp)
 
-        pred_u = pred['U10M']
-        pred_v = pred['V10M']
-        speed, direction = _wind_from_uv(pred_u, pred_v)
-        derived_wind_speed.append(speed)
-        derived_wind_dir.append(direction)
+    # Humidity
+    mean_q = y_row[hum_idx]
+    sigma_q = residual_std[hum_idx] if residual_std[hum_idx] > 1e-6 else 1e-6
+    thr_q = thresholds.get('QV2M', 12.0)
+    prob_humidity = 1.0 - norm.cdf(thr_q, loc=mean_q, scale=sigma_q)
 
-        lower_w = speed - t_val * wind_res_std
-        upper_w = speed + t_val * wind_res_std
-        derived_lower_wind.append(lower_w)
-        derived_upper_wind.append(upper_w)
+    # Wind
+    sigma_ws = wind_res_std if wind_res_std > 1e-6 else 1e-6
+    thr_ws = thresholds.get('wind_speed', 10.0)
+    prob_wind_speed = 1.0 - norm.cdf(thr_ws, loc=speed, scale=sigma_ws)
 
-        # Rain > default
-        mean_rain = y_row[rain_idx]
-        sigma_rain = residual_std[rain_idx] if residual_std[rain_idx] > 1e-6 else 1e-6
-        thr = thresholds.get('PRECTOTCORR', 30.0)
-        prob_rain.append(1.0 - norm.cdf(thr, loc=mean_rain, scale=sigma_rain))
-
-        # Heavy Rain > 50mm
-        thr_heavy = max(50.0, thresholds.get('PRECTOTCORR', 30.0))
-        prob_heavy_rain.append(1.0 - norm.cdf(thr_heavy, loc=mean_rain, scale=sigma_rain))
-
-        # Temperature > threshold
-        mean_temp = y_row[temp_idx]
-        sigma_temp = residual_std[temp_idx] if residual_std[temp_idx] > 1e-6 else 1e-6
-        thr_t = thresholds.get('T2M', 35.0)
-        prob_temp.append(1.0 - norm.cdf(thr_t, loc=mean_temp, scale=sigma_temp))
-
-        # Humidity > threshold
-        mean_q = y_row[hum_idx]
-        sigma_q = residual_std[hum_idx] if residual_std[hum_idx] > 1e-6 else 1e-6
-        thr_q = thresholds.get('QV2M', 12.0)
-        prob_humidity.append(1.0 - norm.cdf(thr_q, loc=mean_q, scale=sigma_q))
-
-        # Wind speed > threshold
-        sigma_ws = wind_res_std if wind_res_std > 1e-6 else 1e-6
-        thr_ws = thresholds.get('wind_speed', 10.0)
-        prob_wind_speed.append(1.0 - norm.cdf(thr_ws, loc=speed, scale=sigma_ws))
-
-        # Heatwave Probability (Heat Index > 40Â°C)
-        mean_hi = mean_temp + 0.5 * (mean_q / 10.0)
-        sigma_hi = np.sqrt((sigma_temp**2) + ((0.5/10.0)**2) * (sigma_q**2))
-        prob_heatwave.append(1.0 - norm.cdf(40.0, loc=mean_hi, scale=sigma_hi))
+    # Heatwave
+    mean_hi = mean_temp + 0.5 * (mean_q / 10.0)
+    sigma_hi = np.sqrt((sigma_temp**2) + ((0.5/10.0)**2) * (sigma_q**2))
+    prob_heatwave = 1.0 - norm.cdf(40.0, loc=mean_hi, scale=sigma_hi)
 
     return {
-        "DOY": doy_list,
+        "DOY": doy,
         "Targets": targets,
-        "Predicted": np.array(preds),
-        "Lower": np.array(lowers),
-        "Upper": np.array(uppers),
+        "Predicted": y_row,
+        "Lower": lower,
+        "Upper": upper,
         "Derived": {
-            "wind_speed": np.array(derived_wind_speed),
-            "wind_dir": np.array(derived_wind_dir)
+            "wind_speed": speed,
+            "wind_dir": direction
         },
         "Derived_Lower": {
-            "wind_speed": np.array(derived_lower_wind)
+            "wind_speed": lower_w
         },
         "Derived_Upper": {
-            "wind_speed": np.array(derived_upper_wind)
+            "wind_speed": upper_w
         },
         "Probability": {
-            "rain_gt_threshold": np.array(prob_rain),
-            "heavy_rain_gt_50mm": np.array(prob_heavy_rain),
-            "temp_gt_threshold": np.array(prob_temp),
-            "humidity_gt_threshold": np.array(prob_humidity),
-            "wind_speed_gt_threshold": np.array(prob_wind_speed),
-            "heatwave_hi_gt_40C": np.array(prob_heatwave)
+            "rain_gt_threshold": prob_rain,
+            "heavy_rain_gt_50mm": prob_heavy_rain,
+            "temp_gt_threshold": prob_temp,
+            "humidity_gt_threshold": prob_humidity,
+            "wind_speed_gt_threshold": prob_wind_speed,
+            "heatwave_hi_gt_40C": prob_heatwave
         },
         "Residual_Mean": residual_mean,
         "Residual_STD": residual_std,
@@ -412,7 +404,6 @@ def predict_with_full_stats_and_probs(
         "confidence": confidence,
         "thresholds_used": thresholds
     }
-
 
 if __name__ == "__main__":
     import pickle
@@ -432,12 +423,14 @@ if __name__ == "__main__":
     # single test day
     lat_karachi = 24
     lon_karachi = 67
-    doy_test = [365]
+    doy_test = 233
     year = 2025
 
     model = load_model("xgb_multioutput_model.pkl")
+    residuals = load_residuals()
+    rr = find_residuals_for_location(lat_karachi, lon_karachi, residuals)
 
-    result = predict_with_full_stats_and_probs(
+    result = predict_with_full_stats_and_probs_single(
         trend_map,
         model,
         df,
@@ -447,31 +440,12 @@ if __name__ == "__main__":
         year,
         thresholds={
             'PRECTOTCORR': 10.0,
-            'T2M': 20.0,
-            'QV2M': 5.0,
+            'T2M': 29.0,
+            'QV2M': 15.0,
             'wind_speed': 5.0
-        }
+        },
+        rr=rr
     )
 
-    day_i = 0
-    print("\n=== Single-day prediction (Karachi, DOY 227) ===")
-    for i, t in enumerate(result['Targets']):
-        mean = result['Predicted'][day_i, i]
-        lower = result['Lower'][day_i, i]
-        upper = result['Upper'][day_i, i]
-        print(f"{t}: Pred={mean:.3f}, Lower={lower:.3f}, Upper={upper:.3f}")
-
-    ws = result['Derived']['wind_speed'][day_i]
-    wd = result['Derived']['wind_dir'][day_i]
-    print(f"Wind speed: {ws:.3f} m/s (CI {result['Derived_Lower']['wind_speed'][day_i]:.3f} - {result['Derived_Upper']['wind_speed'][day_i]:.3f})")
-    print(f"Wind direction: {wd:.1f}°")
-
-    thr = result['thresholds_used']
-    print("\nProbabilities (thresholds used):")
-    print(f"Rain > {thr['PRECTOTCORR']} mm: {result['Probability']['rain_gt_threshold'][day_i]*100:.2f}%")
-    print(f"Heavy Rain > 50 mm: {result['Probability']['heavy_rain_gt_50mm'][day_i]*100:.2f}%")
-    print(f"Temp > {thr['T2M']} °C: {result['Probability']['temp_gt_threshold'][day_i]*100:.2f}%")
-    print(f"Heatwave (Heat Index > 40°C): {result['Probability']['heatwave_hi_gt_40C'][day_i]*100:.2f}%")
-    print(f"Humidity > {thr['QV2M']}: {result['Probability']['humidity_gt_threshold'][day_i]*100:.2f}%")
-    print(f"Wind speed > {thr['wind_speed']} m/s: {result['Probability']['wind_speed_gt_threshold'][day_i]*100:.2f}%")
+    print(result)
 
