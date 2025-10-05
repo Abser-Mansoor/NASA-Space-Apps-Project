@@ -37,7 +37,7 @@ regions = [
     ("peshawar", "pakistan", 34.0151, 71.5249),
     # ("quetta", "pakistan", 30.1798, 66.9750),
     # ("multan", "pakistan", 30.1575, 71.5249),
-    # ("hyderabad", "pakistan", 25.3960, 68.3578),
+    ("hyderabad", "pakistan", 25.3960, 68.3578),
     # ("mumbai", "india", 19.0760, 72.8777),
     # ("delhi", "india", 28.7041, 77.1025),
     # ("kolkata", "india", 22.5726, 88.3639),
