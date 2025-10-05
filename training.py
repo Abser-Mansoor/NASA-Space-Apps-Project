@@ -244,7 +244,12 @@ def compute_location_residuals_all_years(
     lon: float,
     targets: List[str]=DEFAULT_TARGETS
 ):
-    hist_df = df[(df['latitude'] == lat) & (df['longitude'] == lon)].sort_values('DOY')
+    # find nearest available (lat, lon) in the dataset
+    df['dist'] = np.sqrt((df['latitude'] - lat)**2 + (df['longitude'] - lon)**2)
+    nearest = df.loc[df['dist'].idxmin()]
+    nearest_lat, nearest_lon = nearest['latitude'], nearest['longitude']
+
+    hist_df = df[(df['latitude'] == nearest_lat) & (df['longitude'] == nearest_lon)].sort_values('DOY')
     if hist_df.empty:
         return None
 
@@ -270,6 +275,7 @@ def compute_location_residuals_all_years(
     residuals_raw = np.array(residuals_raw)   # shape (n_samples, n_targets)
     wind_residuals = np.array(wind_residuals) # shape (n_samples,)
     return residuals_raw, wind_residuals, len(hist_df)
+
 
 def predict_with_full_stats_and_probs(
     trend_map,
@@ -310,11 +316,11 @@ def predict_with_full_stats_and_probs(
     derived_upper_wind = []
 
     prob_rain = []
-    prob_heavy_rain = []   # NEW
+    prob_heavy_rain = []
     prob_temp = []
     prob_humidity = []
     prob_wind_speed = []
-    prob_heatwave = []     # NEW
+    prob_heatwave = []
 
     idx_map = {t: i for i, t in enumerate(targets)}
     rain_idx = idx_map.get('PRECTOTCORR')
@@ -424,9 +430,9 @@ if __name__ == "__main__":
     df.dropna(inplace=True)
 
     # single test day
-    lat_karachi = 24.8607
-    lon_karachi = 67.0011
-    doy_test = [227]   # August 15
+    lat_karachi = 24
+    lon_karachi = 67
+    doy_test = [365]
     year = 2025
 
     model = load_model("xgb_multioutput_model.pkl")
@@ -438,7 +444,13 @@ if __name__ == "__main__":
         lat_karachi,
         lon_karachi,
         doy_test,
-        year
+        year,
+        thresholds={
+            'PRECTOTCORR': 10.0,
+            'T2M': 20.0,
+            'QV2M': 5.0,
+            'wind_speed': 5.0
+        }
     )
 
     day_i = 0
